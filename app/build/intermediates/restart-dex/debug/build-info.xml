@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="100265432667366"
+    token="-8203196941337073069"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="472" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="1144" />
+    <task
+        name="verifier"
+        duration="96" />
+
+    <artifact
+        location="/home/arj/Downloads/SensorManagerBasicExample/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="100265432667366"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/arj/Downloads/SensorManagerBasicExample/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.1.0_786b01782d2449948bdeebe0e1870a217431198f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-22.2.0_9e5229d339c01d800c7ddb20680b9912166ffe19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_cfa579e86eed8d12d2f3188410f1947f5391ed2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_4b8a4462c48ecf8a007ca5b7f29a5e94c017c194/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.1.0_0ddcc8717abd80f0d40f29e40c29a5967c82dc85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.1.0_c52f355ec5e0c0ca584d6479173acf4c5eabc77b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.1.0_b0b659cab355a99659d6319a4be1fbe52e0fa78a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.1.0_9443ef56b1bdced925305d671cf4ade81ec6cf44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.1.0_00e2f48e5061b72ab4122cdf6441a94592b64520/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.1.0_fc3258e4051a5cce44f9ec0f7bfc4719c37803ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_f3c0a89b38c962bccbd783e8872159fd4ff3c329/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.1.0_3bba14905d99dc5a1df733053c8fb1c91948c056/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_3c7c1692e9eb32eef20d4bfdfc19df3006478232/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_1bfd96637eaa40ea62450aaac5858e2bfb6cdc51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.1.0_e4b7f187e40e3e273832bc5c43d0d2cc224becd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.1.0_26f29ba88592c9a32c79d1c4e30172ef7530acb6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_42e59eb38cee04eea178197a57fdcd0792f25d40/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_7b481e1a404862605560a6cc44dc3621185ddd0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.1.0_5b24c9e15befe541fd8e2338526e9ee941abd191/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.1.0_80c1a7402ee0cce8c03ec527acad878c8bd61f33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.1.0_f561a61f8fb244913c646c53b9f9baf6d4f5024d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.1.0_2ea03b4a37048527a76e6a9e96b3fffaffd62286/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1da84940e2f7cf0ace636dc77f7d2a245874f377">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8a9fe89fa469cedc254c9440271495f741baadbe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.1.0_2c15b06807153fa946ebc84c10ba9f8a1a184299/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_c499de8a8f9e107cd4ffee99079c0e800e1cdb4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dece6ba031c8594cafe8bd1d100774d145a2c602">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d28b8bcdf4ed53e13c6b98d64187b1da45975d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.1.0_4df4f34f71802ceefa96f074becb586366c8f8fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_597d254d6e51cc79859c11326f7793c49dfabf75/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.1.0_28abddd4eb16abae4618a306bde360d96680562c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.1.0_3af358efe63847d8e5dcdf099851ca8b1943b350/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.1.0_fadf8bd91b17ad3935c794f46d71881ec9196a75/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_81e482c6061d8e504765c51e14f50de1c1c4f01e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_6cb016df14492aa1166efe5bb21de7ffc79e7cfc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_c6231205fd524f3ad8ed753553324121512a1751/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_b86ccb36be1bee726b8b157675fa9a0dd390b963/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.1.0_935b2929520ef3ae25cd8f98f829f0510db75c00/classes.dex" />
+    </item>
+
+</items>
