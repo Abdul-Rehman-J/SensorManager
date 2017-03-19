@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

@@ -1,7 +1,4 @@
-#Sun Feb 26 15:22:11 PKT 2017
-base.0=/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d28b8bcdf4ed53e13c6b98d64187b1da45975d0
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8a9fe89fa469cedc254c9440271495f741baadbe/classes.dex
-base.1=/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8a9fe89fa469cedc254c9440271495f741baadbe
-file.0=/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d28b8bcdf4ed53e13c6b98d64187b1da45975d0/classes.dex
+#Sun Mar 19 21:25:07 PKT 2017
+base.0=C\:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

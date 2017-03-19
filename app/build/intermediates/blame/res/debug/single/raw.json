@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
-        "source": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/res/raw/gtm_analytics"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\284f53a6dc9db40b076c387fee4425f2c41cc8bb\\output\\res\\raw\\gtm_analytics"
     }
 ]

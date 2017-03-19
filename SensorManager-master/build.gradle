@@ -4,16 +4,16 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.3'
-    }
+        classpath 'com.android.tools.build:gradle:2.3.0'
 
+    }
 }
 
 apply plugin: 'com.android.library'
-
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
+    useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
         minSdkVersion 15

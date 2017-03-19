@@ -1,12 +1,12 @@
 /**
  * Copyright 2014 Google Inc. All Rights Reserved.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
+ * <p>
  * http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -57,7 +57,7 @@ public class DetectedActivitiesAdapter extends ArrayAdapter<DetectedActivity> {
 
         // Populate widgets with values.
         activityName.setText(Constants.getActivityString(getContext(),
-                        detectedActivity.getType()));
+                detectedActivity.getType()));
         activityConfidenceLevel.setText(detectedActivity.getConfidence() + "%");
         progressBar.setProgress(detectedActivity.getConfidence());
         return view;
@@ -83,17 +83,14 @@ public class DetectedActivitiesAdapter extends ArrayAdapter<DetectedActivity> {
         for (int i = 0; i < Constants.MONITORED_ACTIVITIES.length; i++) {
             int confidence = detectedActivitiesMap.containsKey(Constants.MONITORED_ACTIVITIES[i]) ?
                     detectedActivitiesMap.get(Constants.MONITORED_ACTIVITIES[i]) : 0;
-
-            tempList.add(new DetectedActivity(Constants.MONITORED_ACTIVITIES[i],
-                    confidence));
+            tempList.add(new DetectedActivity(Constants.MONITORED_ACTIVITIES[i],confidence));
         }
-
         // Remove all items.
         this.clear();
 
         // Adding the new list items notifies attached observers that the underlying data has
         // changed and views reflecting the data should refresh.
-        for (DetectedActivity detectedActivity: tempList) {
+        for (DetectedActivity detectedActivity : tempList) {
             this.add(detectedActivity);
         }
     }

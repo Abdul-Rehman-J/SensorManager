@@ -43,9 +43,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_toRightOf="@id/request_activity_updates_button"
-            android:layout_toEndOf="@id/request_activity_updates_button"
             android:layout_marginTop="@dimen/narrow_space"
+            android:layout_toEndOf="@id/request_activity_updates_button"
+            android:layout_toRightOf="@id/request_activity_updates_button"
             android:onClick="removeActivityUpdatesButtonHandler"
             android:text="@string/remove_activity_updates" />
     </RelativeLayout>

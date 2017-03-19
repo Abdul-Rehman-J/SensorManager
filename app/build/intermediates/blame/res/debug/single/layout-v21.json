@@ -1,18 +1,6 @@
 [
     {
-        "merged": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_action.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\bf1aa1a902bd33d72833099d72c5f819778caab0\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
     }
 ]

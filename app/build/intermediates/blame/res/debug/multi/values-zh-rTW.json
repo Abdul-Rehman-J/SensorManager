@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+        "outputFile": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 195
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 2,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 55,
+                        "startOffset": 295,
                         "endColumn": 94,
-                        "endOffset": 145
+                        "endOffset": 385
                     }
                 }
             },
@@ -26,17 +26,17 @@
                     "startLine": 3,
                     "startColumn": 4,
                     "startOffset": 200,
-                    "endColumn": 106,
-                    "endOffset": 302
+                    "endColumn": 92,
+                    "endOffset": 288
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 150,
-                        "endColumn": 106,
-                        "endOffset": 252
+                        "startOffset": 390,
+                        "endColumn": 92,
+                        "endOffset": 478
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 307,
-                    "endColumn": 122,
-                    "endOffset": 425
+                    "startOffset": 293,
+                    "endColumn": 99,
+                    "endOffset": 388
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 257,
-                        "endColumn": 122,
-                        "endOffset": 375
+                        "startOffset": 483,
+                        "endColumn": 99,
+                        "endOffset": 578
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 430,
-                    "endColumn": 92,
-                    "endOffset": 518
+                    "startOffset": 393,
+                    "endColumn": 81,
+                    "endOffset": 470
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 380,
-                        "endColumn": 92,
-                        "endOffset": 468
+                        "startOffset": 583,
+                        "endColumn": 81,
+                        "endOffset": 660
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 523,
-                    "endColumn": 99,
-                    "endOffset": 618
+                    "startOffset": 475,
+                    "endColumn": 96,
+                    "endOffset": 567
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 473,
-                        "endColumn": 99,
-                        "endOffset": 568
+                        "startOffset": 665,
+                        "endColumn": 96,
+                        "endOffset": 757
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 623,
-                    "endColumn": 81,
-                    "endOffset": 700
+                    "startOffset": 572,
+                    "endColumn": 107,
+                    "endOffset": 675
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 573,
-                        "endColumn": 81,
-                        "endOffset": 650
+                        "startOffset": 762,
+                        "endColumn": 107,
+                        "endOffset": 865
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 705,
-                    "endColumn": 96,
-                    "endOffset": 797
+                    "startOffset": 680,
+                    "endColumn": 95,
+                    "endOffset": 771
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 655,
-                        "endColumn": 96,
-                        "endOffset": 747
+                        "startOffset": 870,
+                        "endColumn": 95,
+                        "endOffset": 961
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 802,
-                    "endColumn": 107,
-                    "endOffset": 905
+                    "startOffset": 776,
+                    "endColumn": 95,
+                    "endOffset": 867
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 752,
-                        "endColumn": 107,
-                        "endOffset": 855
+                        "startOffset": 966,
+                        "endColumn": 95,
+                        "endOffset": 1057
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 910,
-                    "endColumn": 75,
-                    "endOffset": 981
+                    "startOffset": 872,
+                    "endColumn": 94,
+                    "endOffset": 962
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 860,
-                        "endColumn": 75,
-                        "endOffset": 931
+                        "startOffset": 1062,
+                        "endColumn": 94,
+                        "endOffset": 1152
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 986,
-                    "endColumn": 75,
-                    "endOffset": 1057
+                    "startOffset": 967,
+                    "endColumn": 96,
+                    "endOffset": 1059
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 936,
-                        "endColumn": 75,
-                        "endOffset": 1007
+                        "startOffset": 1157,
+                        "endColumn": 96,
+                        "endOffset": 1249
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1062,
-                    "endColumn": 77,
-                    "endOffset": 1135
+                    "startOffset": 1064,
+                    "endColumn": 94,
+                    "endOffset": 1154
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1012,
-                        "endColumn": 77,
-                        "endOffset": 1085
+                        "startOffset": 1254,
+                        "endColumn": 94,
+                        "endOffset": 1344
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1140,
-                    "endColumn": 95,
-                    "endOffset": 1231
+                    "startOffset": 1159,
+                    "endColumn": 99,
+                    "endOffset": 1254
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1090,
-                        "endColumn": 95,
-                        "endOffset": 1181
+                        "startOffset": 1349,
+                        "endColumn": 99,
+                        "endOffset": 1444
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1236,
-                    "endColumn": 95,
-                    "endOffset": 1327
+                    "startOffset": 1259,
+                    "endColumn": 112,
+                    "endOffset": 1367
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1186,
-                        "endColumn": 95,
-                        "endOffset": 1277
+                        "startOffset": 1449,
+                        "endColumn": 112,
+                        "endOffset": 1557
                     }
                 }
             },
@@ -253,126 +253,12 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1332,
-                    "endColumn": 94,
-                    "endOffset": 1422
-                },
-                "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1282,
-                        "endColumn": 94,
-                        "endOffset": 1372
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1427,
-                    "endColumn": 96,
-                    "endOffset": 1519
-                },
-                "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1377,
-                        "endColumn": 96,
-                        "endOffset": 1469
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1524,
-                    "endColumn": 94,
-                    "endOffset": 1614
-                },
-                "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1474,
-                        "endColumn": 94,
-                        "endOffset": 1564
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1619,
-                    "endColumn": 99,
-                    "endOffset": 1714
-                },
-                "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1569,
-                        "endColumn": 99,
-                        "endOffset": 1664
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1719,
-                    "endColumn": 112,
-                    "endOffset": 1827
-                },
-                "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1669,
-                        "endColumn": 112,
-                        "endOffset": 1777
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1832,
-                    "endColumn": 93,
-                    "endOffset": 1921
-                },
-                "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1782,
-                        "endColumn": 93,
-                        "endOffset": 1871
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1926,
+                    "startOffset": 1372,
                     "endColumn": 167,
-                    "endOffset": 2089
+                    "endOffset": 1535
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -384,14 +270,14 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 2094,
+                    "startOffset": 1540,
                     "endColumn": 154,
-                    "endOffset": 2244
+                    "endOffset": 1690
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -403,14 +289,14 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 2249,
+                    "startOffset": 1695,
                     "endColumn": 106,
-                    "endOffset": 2351
+                    "endOffset": 1797
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -422,14 +308,14 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 2356,
+                    "startOffset": 1802,
                     "endColumn": 200,
-                    "endOffset": 2552
+                    "endOffset": 1998
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -441,14 +327,14 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 2557,
+                    "startOffset": 2003,
                     "endColumn": 117,
-                    "endOffset": 2670
+                    "endOffset": 2116
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -460,14 +346,14 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 2675,
+                    "startOffset": 2121,
                     "endColumn": 159,
-                    "endOffset": 2830
+                    "endOffset": 2276
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -479,14 +365,14 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2835,
+                    "startOffset": 2281,
                     "endColumn": 115,
-                    "endOffset": 2946
+                    "endOffset": 2392
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -498,14 +384,14 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2951,
+                    "startOffset": 2397,
                     "endColumn": 161,
-                    "endOffset": 3108
+                    "endOffset": 2554
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -517,14 +403,14 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 3113,
+                    "startOffset": 2559,
                     "endColumn": 118,
-                    "endOffset": 3227
+                    "endOffset": 2673
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -536,14 +422,14 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 3232,
+                    "startOffset": 2678,
                     "endColumn": 171,
-                    "endOffset": 3399
+                    "endOffset": 2845
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -555,14 +441,14 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 3404,
+                    "startOffset": 2850,
                     "endColumn": 173,
-                    "endOffset": 3573
+                    "endOffset": 3019
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -574,14 +460,14 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 3578,
+                    "startOffset": 3024,
                     "endColumn": 115,
-                    "endOffset": 3689
+                    "endOffset": 3135
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -593,14 +479,14 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 3694,
+                    "startOffset": 3140,
                     "endColumn": 130,
-                    "endOffset": 3820
+                    "endOffset": 3266
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -612,14 +498,14 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 3825,
+                    "startOffset": 3271,
                     "endColumn": 113,
-                    "endOffset": 3934
+                    "endOffset": 3380
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -631,14 +517,14 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3939,
+                    "startOffset": 3385,
                     "endColumn": 131,
-                    "endOffset": 4066
+                    "endOffset": 3512
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -650,14 +536,14 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 4071,
+                    "startOffset": 3517,
                     "endColumn": 131,
-                    "endOffset": 4198
+                    "endOffset": 3644
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -669,14 +555,14 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 4203,
+                    "startOffset": 3649,
                     "endColumn": 110,
-                    "endOffset": 4309
+                    "endOffset": 3755
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -688,14 +574,14 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 4314,
+                    "startOffset": 3760,
                     "endColumn": 142,
-                    "endOffset": 4452
+                    "endOffset": 3898
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -707,14 +593,14 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 4457,
+                    "startOffset": 3903,
                     "endColumn": 124,
-                    "endOffset": 4577
+                    "endOffset": 4023
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -726,14 +612,14 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 4582,
+                    "startOffset": 4028,
                     "endColumn": 127,
-                    "endOffset": 4705
+                    "endOffset": 4151
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -745,14 +631,14 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 4710,
+                    "startOffset": 4156,
                     "endColumn": 111,
-                    "endOffset": 4817
+                    "endOffset": 4263
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -764,14 +650,14 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4822,
+                    "startOffset": 4268,
                     "endColumn": 121,
-                    "endOffset": 4939
+                    "endOffset": 4385
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -783,14 +669,14 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 4944,
+                    "startOffset": 4390,
                     "endColumn": 195,
-                    "endOffset": 5135
+                    "endOffset": 4581
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -802,14 +688,14 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 5140,
+                    "startOffset": 4586,
                     "endColumn": 118,
-                    "endOffset": 5254
+                    "endOffset": 4700
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -821,14 +707,14 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 5259,
+                    "startOffset": 4705,
                     "endColumn": 102,
-                    "endOffset": 5357
+                    "endOffset": 4803
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -840,14 +726,14 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 5362,
+                    "startOffset": 4808,
                     "endColumn": 159,
-                    "endOffset": 5517
+                    "endOffset": 4963
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -859,14 +745,14 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 5522,
+                    "startOffset": 4968,
                     "endColumn": 116,
-                    "endOffset": 5634
+                    "endOffset": 5080
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -878,14 +764,14 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 5639,
+                    "startOffset": 5085,
                     "endColumn": 174,
-                    "endOffset": 5809
+                    "endOffset": 5255
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -897,14 +783,14 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 5814,
+                    "startOffset": 5260,
                     "endColumn": 119,
-                    "endOffset": 5929
+                    "endOffset": 5375
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -916,14 +802,14 @@
             },
             {
                 "to": {
-                    "startLine": 50,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 5934,
+                    "startOffset": 5380,
                     "endColumn": 84,
-                    "endOffset": 6014
+                    "endOffset": 5460
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values-zh-rTW/common_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\193a7055d969ca6a804a98fa980ae0510b61dc2c\\output\\res\\values-zh-rTW\\common_strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -935,14 +821,14 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 6019,
+                    "startOffset": 5465,
                     "endColumn": 104,
-                    "endOffset": 6119
+                    "endOffset": 5565
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -954,14 +840,14 @@
             },
             {
                 "to": {
-                    "startLine": 52,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 6124,
+                    "startOffset": 5570,
                     "endColumn": 100,
-                    "endOffset": 6220
+                    "endOffset": 5666
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -973,14 +859,14 @@
             },
             {
                 "to": {
-                    "startLine": 53,
+                    "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 6225,
+                    "startOffset": 5671,
                     "endColumn": 92,
-                    "endOffset": 6313
+                    "endOffset": 5759
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -992,14 +878,14 @@
             },
             {
                 "to": {
-                    "startLine": 54,
+                    "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 6318,
+                    "startOffset": 5764,
                     "endColumn": 98,
-                    "endOffset": 6412
+                    "endOffset": 5858
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1011,14 +897,14 @@
             },
             {
                 "to": {
-                    "startLine": 55,
+                    "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 6417,
+                    "startOffset": 5863,
                     "endColumn": 81,
-                    "endOffset": 6494
+                    "endOffset": 5940
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1030,14 +916,14 @@
             },
             {
                 "to": {
-                    "startLine": 56,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 6499,
+                    "startOffset": 5945,
                     "endColumn": 88,
-                    "endOffset": 6583
+                    "endOffset": 6029
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1049,52 +935,14 @@
             },
             {
                 "to": {
-                    "startLine": 57,
+                    "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 6588,
-                    "endColumn": 77,
-                    "endOffset": 6661
-                },
-                "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1876,
-                        "endColumn": 77,
-                        "endOffset": 1949
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 58,
-                    "startColumn": 4,
-                    "startOffset": 6666,
-                    "endColumn": 100,
-                    "endOffset": 6762
-                },
-                "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-zh-rTW/values-zh-rTW.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 1954,
-                        "endColumn": 100,
-                        "endOffset": 2050
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 59,
-                    "startColumn": 4,
-                    "startOffset": 6767,
+                    "startOffset": 6034,
                     "endColumn": 101,
-                    "endOffset": 6864
+                    "endOffset": 6131
                 },
                 "from": {
-                    "file": "/home/arj/Downloads/SensorManagerBasicExample/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/res/values-zh-rTW/wallet_strings.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\ec443466e2bfca7aac83d8b6ec2940a4a5afc0c4\\output\\res\\values-zh-rTW\\wallet_strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,

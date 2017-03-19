@@ -1,12 +1,12 @@
 /**
  * Copyright 2014 Google Inc. All Rights Reserved.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
+ * <p>
  * http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -16,6 +16,7 @@
 
 package com.google.android.gms.location.sample.activityrecognition;
 
+import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -23,17 +24,15 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
-import android.app.Activity;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
@@ -42,12 +41,19 @@ import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.ActivityRecognition;
 import com.google.android.gms.location.DetectedActivity;
+import com.tutorial.UpdateService;
 import com.ubhave.example.basicsensordataexample.R;
 import com.ubhave.example.basicsensordataexample.SenseFromAllEnvSensorsTask;
 import com.ubhave.example.basicsensordataexample.SenseFromAllPullSensorsTask;
 import com.ubhave.example.basicsensordataexample.SenseFromAllPushSensorsTask;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Calendar;
 
 /**
  * This sample demonstrates use of the
@@ -66,8 +72,7 @@ import java.util.ArrayList;
  * returns a {@link com.google.android.gms.common.api.PendingResult}, whose result
  * object is processed by the {@code onResult} callback.
  */
-public class MainActivity extends Activity implements
-        ConnectionCallbacks, OnConnectionFailedListener, ResultCallback<Status> {
+public class MainActivity extends Activity implements ConnectionCallbacks, OnConnectionFailedListener, ResultCallback<Status> {
 
     protected static final String TAG = "MainActivity";
 
@@ -105,6 +110,12 @@ public class MainActivity extends Activity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
         startPull();
+        System.out.println("onCreate1 ");
+        IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
+        filter.addAction(Intent.ACTION_SCREEN_OFF);
+        BroadcastReceiver mReceiver = new UpdateService.ScreenReceiver();
+        registerReceiver(mReceiver, filter);
+        System.out.println("onCreate ");
 
         // Get the UI widgets.
         mRequestActivityUpdatesButton = (Button) findViewById(R.id.request_activity_updates_button);
@@ -175,12 +186,36 @@ public class MainActivity extends Activity implements
         // object broadcast sent by the intent service.
         LocalBroadcastManager.getInstance(this).registerReceiver(mBroadcastReceiver,
                 new IntentFilter(Constants.BROADCAST_ACTION));
+        if (!UpdateService.ScreenReceiver.screenOff) {
+            // this
+            // is when onResume() is called due to a screen state change
+            System.out.println("SCREEN TURNED ON");
+            String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
+            String screenOff = "MainScreen is ON at : " + mydate;
+            generateNoteOnSD(getApplicationContext(), screenOff);
+        } else {
+            // this is when onResume() is called when the screen state has not changed
+            System.out.println(" this is when onResume() is called when the screen state has not changed ");
+        }
+        super.onResume();
     }
 
     @Override
     protected void onPause() {
         // Unregister the broadcast receiver that was registered during onResume().
         LocalBroadcastManager.getInstance(this).unregisterReceiver(mBroadcastReceiver);
+        if (UpdateService.ScreenReceiver.screenOff) {
+            // this is the case when onPause() is called by the system due to a screen state change
+            System.out.println("SCREEN TURNED OFF");
+            String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
+            String screenOff = "MainScreen is OFF at : " + mydate;
+            generateNoteOnSD(getApplicationContext(), screenOff);
+
+        } else {
+            // this is when onPause() is called when the screen state has not changed
+            System.out.println("this is when onPause() is called when the screen state has not changed ");
+
+        }
         super.onPause();
     }
 
@@ -352,6 +387,31 @@ public class MainActivity extends Activity implements
         mAdapter.updateActivities(detectedActivities);
     }
 
+    //Emotion sensing main class copied here
+    private void startPull() {
+        new SenseFromAllPullSensorsTask(this) {
+            @Override
+            protected void onPostExecute(Void result) {
+                super.onPostExecute(result);
+                startEnvironment();
+            }
+        }.execute();
+    }
+
+    private void startEnvironment() {
+        new SenseFromAllEnvSensorsTask(this) {
+            @Override
+            protected void onPostExecute(Void result) {
+                super.onPostExecute(result);
+                startPush();
+            }
+        }.execute();
+    }
+
+    private void startPush() {
+        new SenseFromAllPushSensorsTask(this).execute();
+    }
+
     /**
      * Receiver for intents sent by DetectedActivitiesIntentService via a sendBroadcast().
      * Receives a list of one or more DetectedActivity objects associated with the current state of
@@ -367,36 +427,41 @@ public class MainActivity extends Activity implements
             updateDetectedActivitiesList(updatedActivities);
         }
     }
-    //emotion sensing main class copied here
-    private void startPull()
-    {
-        new SenseFromAllPullSensorsTask(this)
-        {
-            @Override
-            protected void onPostExecute(Void result)
-            {
-                super.onPostExecute(result);
-                startEnvironment();
-            }
-        }.execute();
+
+    ///////////////////////////////////////////////////////
+    @Override
+    public void unregisterReceiver(BroadcastReceiver receiver) {
+        super.unregisterReceiver(receiver);
+    }
+            public void generateNoteOnSD(Context context, String sBody) {
+        try {
+            String content = sBody;
+            String dir = Environment.getExternalStorageDirectory() + File.separator + "myDirectory";
+            //create folder
+            File folder = new File(dir); //folder name
+            folder.mkdirs();
+
+            //create file
+            File file = new File(dir, "ScreenData.txt");
+
+
+            FileWriter fw = new FileWriter(file, true);
+            //BufferedWriter writer give better performance
+            BufferedWriter bw = new BufferedWriter(fw);
+            PrintWriter pw = new PrintWriter(bw);
+            pw.write(content);
+            pw.println("");
+            //Closing BufferedWriter Stream
+            bw.close();
+
+            System.out.println("Data successfully appended at the end of file");
+
+        } catch (IOException ioe) {
+            System.out.println("Exception occurred:");
+            ioe.printStackTrace();
+        }
     }
 
-    private void startEnvironment()
-    {
-        new SenseFromAllEnvSensorsTask(this)
-        {
-            @Override
-            protected void onPostExecute(Void result)
-            {
-                super.onPostExecute(result);
-                startPush();
-            }
-        }.execute();
-    }
 
-    private void startPush()
-    {
-        new SenseFromAllPushSensorsTask(this).execute();
-    }
 }
 
