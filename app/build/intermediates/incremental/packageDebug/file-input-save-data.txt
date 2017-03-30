@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Mar 30 13:13:47 PKT 2017
+#Thu Mar 30 13:52:09 PKT 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\abc_fade_in.xml
 14.set=ANDROID_RESOURCE

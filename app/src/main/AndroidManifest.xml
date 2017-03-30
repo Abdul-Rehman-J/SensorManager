@@ -86,9 +86,9 @@
             android:name="com.google.android.gms.location.sample.activityrecognition.DetectedActivitiesIntentService"
             android:enabled="true"
             android:exported="false" />
-        <service android:name="com.tutorial.UpdateService"/>
-        <service android:name="com.tutorial.MyService" />
 
+        <service android:name="com.tutorial.UpdateService" />
+        <service android:name="com.tutorial.MyService" />
     </application>
 
 
