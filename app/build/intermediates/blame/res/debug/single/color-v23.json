@@ -1,38 +1,46 @@
 [
     {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\color-v23\\abc_tint_default.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\color-v23\\abc_tint_spinner.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\color-v23\\abc_tint_spinner.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\color-v23\\abc_tint_edittext.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\210d2bc8459792db902144dca4dffd253e752539\\output\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
     }
 ]

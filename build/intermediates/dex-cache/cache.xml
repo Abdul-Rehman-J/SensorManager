@@ -2,265 +2,40 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\df6bf16f5ba36e23193f5c9f6011e6251d158e20\output\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_c0b89363e7c2ec7df2a0c5e7a35690c6c4b6bfe6.jar" />
+        sha1="2e45285f397a264074aa2255656b450899e78311">
+        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_dc0e692350cb1df8f2c08fba16531ea28fd68250\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\193a7055d969ca6a804a98fa980ae0510b61dc2c\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_b38e58042926772ef18ce3e078f00360642a87e1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\2357c9f33f04f4be3c8a5e39d968ac6b3fa85f30\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_da856735afab80fd4fcdcd80cd009dd17f39bed6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="482de223655d06253cc6a4955d653f8994169500">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_50f9d8a53a5f02b2b6c8c6e99880811c913cdf76.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\441a41a5ff30d9e1f574af9dc0bb02a751a49d49\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_dae7b0866e960cd427b4d9c9a44470703055fe30.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\95f85ff951a037b1939643db885c9ad1c2a54bbd\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_3b801cb6abe6d34266f76c996da63076157823cd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0_05fa38c2b2d13f32cfe1014f36272671324753c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\284f53a6dc9db40b076c387fee4425f2c41cc8bb\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="95758a2905669affbffc5ddd262921d375674fad">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_177bc643d3db20d1b99a64a31200d4ccbe198afd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\ecad9df7818f36da5e5f2c9189cb19b046475a75\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_07985c28425fa602593c38ac286541518fdaf492.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\ec443466e2bfca7aac83d8b6ec2940a4a5afc0c4\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_2c05039a4469b55f93574a88c113cf9e0c226670.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\0b646e892a37392e0c402258c40232977755570a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_afaa6768fad11f8f1bba8ec284da55f4932af1bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\eff63a4f74b8dac685c190a97d8bf47f52a8ae06\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_d68a281005338fa5f72f67de2a45d971b0589399.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\2133851383afa5d5dbe4e213926aff63dc900c1b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_d878fc7f59cf32d16c59b75911fa0ecad1029372.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\3866a4d1c48e659b1f8b9ecf28da24e8b31c3379\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_1d09fe2cea313b097f043efd6e5b578fb5184e97.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\454b9da4773631958deb1f70212efd269f525700\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_3079c7f4016acfe9064fa96d2cbd887f0250bd23.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="997773777cf3904c11d6764fe3b7668538220e49">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_aa10fca70926a975702029aa3e9d430211c72ab0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\441a41a5ff30d9e1f574af9dc0bb02a751a49d49\output\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_f8251f52b5572c7d3c89ed75500b2152e4098461.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\f2d214e5f645e5bd2720c91d0d46e09aebec76c0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_bbe32023e7bdbd03d5d08b57f8be64adfabd343d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ab61d45f0f78480fd4f05bbaded33d9c29eaac59">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_37121250c043ebbab4b9f784d5b1df22168d7e37.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\0e61fedc3ffdf8b23006cf5b25b2083480112a0b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="17449c47df35c754b257532052f1270c444f7993">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_6db3631ecf927ec63c5561f715024ad9a9de8dcd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\9036d3f9f5965ebc2716c7ff77364d9147db2c72\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_e20c05fad0d23b46ce85e21d048d9bd1461c81ea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\2578599bc54744dd26fd4fb22286d03a2f297395\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_de14883512d4830bc90e2f1a1b76af423449ce92.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\a6ba250eb3d43ee9ba64b71ef3225aab0a522754\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_bba855e00fd8f621112312f8cdcb2f913630ffd2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\e3a36380a4e83095923f34333d1487349cbb4b5d\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_1ab0f6d4fededa0f208bc83b447eb19978fb7d9e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\7dd8a9857386fb1bda42087d985648c960072e89\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_21eb7fbd4de813634ff31e2a462875232ee5649c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\e4ef74cc3a36de28b02d5219b3e0bc0bcab33e13\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3178362320bcf51228835b60ff978efadfd1f783">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_e3cfaeda25fce3a7856f5cb3b54cfce1a74da077.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\df6bf16f5ba36e23193f5c9f6011e6251d158e20\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\abdul\.android\build-cache\ede08d202a0d686948a5a3e59e1efeb32970a51d\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_083e4c53bd554bfc9a3a7889423d7b86cf53d4b5.jar" />
+        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f7ef94d4757e06b704fcce2d0a4c326741157493\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\abdul\.android\build-cache\ede08d202a0d686948a5a3e59e1efeb32970a51d\output\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_a46d87f3f4cdc8ba3b9073b1c3e5b5e5462e6e08.jar" />
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_568a0a878314d391fd4ac8ddc86f7c220d1f3a40\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\abdul\.android\build-cache\f78b2e6802126046a1c8e48d1895ab4f65c92cd9\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
-        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\pre-dexed\debug\classes_0273feffcfd55669bd95061a19cfdbd98886ea26.jar" />
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\abdul\Downloads\SensorManagerBasicExample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_61ca97ebccae2d1044960c0bb0a19656faa3fca7\classes.dex" />
     </item>
 
 </items>

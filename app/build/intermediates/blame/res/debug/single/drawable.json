@@ -1,291 +1,35 @@
 [
     {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\210d2bc8459792db902144dca4dffd253e752539\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\drawable\\mr_ic_settings_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_play.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_expanded_controller_play.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind10.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_rewind10.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\ede08d202a0d686948a5a3e59e1efeb32970a51d\\output\\res\\drawable\\mr_ic_settings_light.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\drawable\\mr_ic_play_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_stop.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\drawable\\mr_ic_pause_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_play.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\mr_ic_close_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_stop.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_expanded_controller_stop.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop_large.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_stop_large.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\drawable\\mr_ic_settings_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_rewind30.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_rewind30.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\95f85ff951a037b1939643db885c9ad1c2a54bbd\\output\\res\\drawable\\common_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\drawable\\mr_ic_pause_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward30.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_forward30.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\mr_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\mr_ic_cast_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_forward.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\mr_ic_media_route_connecting_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\mr_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_audiotrack_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\mr_ic_audiotrack_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_pause.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_pause.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_mute.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\mr_ic_media_route_on_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collapse.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\ic_collapse.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_bg_gradient_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_expanded_controller_bg_gradient_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_prev.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_skip_prev.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\95f85ff951a037b1939643db885c9ad1c2a54bbd\\output\\res\\drawable\\common_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_rewind30.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_expanded_controller_rewind30.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_next.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_skip_next.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_thumb.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_expanded_controller_seekbar_thumb.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_disconnect.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_disconnect.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_next.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_expanded_controller_skip_next.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_gradient_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_mini_controller_gradient_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_closed_caption.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_expanded_controller_closed_caption.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\mr_ic_close_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_pause.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play_large.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_play_large.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_track.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_expanded_controller_seekbar_track.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind30.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_rewind30.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_mute.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_expanded_controller_mute.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_forward30.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_forward30.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_stop_live_stream.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause_large.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_pause_large.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_skip_ad_label_border.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_skip_ad_label_border.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\ede08d202a0d686948a5a3e59e1efeb32970a51d\\output\\res\\drawable\\mr_ic_play_dark.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\mr_ic_cast_light.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
@@ -293,186 +37,198 @@
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\ede08d202a0d686948a5a3e59e1efeb32970a51d\\output\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\mr_ic_media_route_connecting_dark.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\210d2bc8459792db902144dca4dffd253e752539\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_closed_caption.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_mini_controller_closed_caption.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_dark.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\ede08d202a0d686948a5a3e59e1efeb32970a51d\\output\\res\\drawable\\mr_ic_settings_dark.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\210d2bc8459792db902144dca4dffd253e752539\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\95f85ff951a037b1939643db885c9ad1c2a54bbd\\output\\res\\drawable\\common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\ede08d202a0d686948a5a3e59e1efeb32970a51d\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\ede08d202a0d686948a5a3e59e1efeb32970a51d\\output\\res\\drawable\\mr_ic_pause_light.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_light.xml",
         "source": "C:\\Users\\abdul\\.android\\build-cache\\95f85ff951a037b1939643db885c9ad1c2a54bbd\\output\\res\\drawable\\common_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_rewind.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_forward30.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_expanded_controller_forward30.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\drawable\\mr_ic_play_light.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\ede08d202a0d686948a5a3e59e1efeb32970a51d\\output\\res\\drawable\\mr_ic_play_light.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_small_icon.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_small_icon.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\ede08d202a0d686948a5a3e59e1efeb32970a51d\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\210d2bc8459792db902144dca4dffd253e752539\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\df6bf16f5ba36e23193f5c9f6011e6251d158e20\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_light.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\ede08d202a0d686948a5a3e59e1efeb32970a51d\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_light.xml",
         "source": "C:\\Users\\abdul\\.android\\build-cache\\95f85ff951a037b1939643db885c9ad1c2a54bbd\\output\\res\\drawable\\common_signin_btn_icon_light.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_play.xml"
-    },
-    {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_prev.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_skip_prev.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\95f85ff951a037b1939643db885c9ad1c2a54bbd\\output\\res\\drawable\\common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\ic_expand.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\15a8fbed91e9675cf5913e15d80bdbaac5dec886\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward10.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_forward10.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\ede08d202a0d686948a5a3e59e1efeb32970a51d\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
     },
     {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\bec8e9c9a906200a0d70aa2e8ea8d4c52f9dd488\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_progress_drawable.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_mini_controller_progress_drawable.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\210d2bc8459792db902144dca4dffd253e752539\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_dark.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\58323221ccd89ea681edcc31ae30ff75a61db46a\\output\\res\\drawable\\mr_ic_media_route_on_dark.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_next.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_notification_skip_next.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\4c26ebd58d36dab04f99ef03e76c4ecf9587e64f\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
-    },
-    {
-        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_pause.xml",
-        "source": "C:\\Users\\abdul\\.android\\build-cache\\0dfc5db096b73d438306010a3a2a2814e8c82e89\\output\\res\\drawable\\cast_ic_expanded_controller_pause.xml"
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\drawable\\abc_dialog_material_background.xml"
     }
 ]

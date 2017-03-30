@@ -16,13 +16,15 @@
 
 package com.google.android.gms.location.sample.activityrecognition;
 
-import android.app.Activity;
+import android.app.ActivityManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.content.LocalBroadcastManager;
@@ -41,6 +43,7 @@ import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.ActivityRecognition;
 import com.google.android.gms.location.DetectedActivity;
+import com.tutorial.MyService;
 import com.tutorial.UpdateService;
 import com.ubhave.example.basicsensordataexample.R;
 import com.ubhave.example.basicsensordataexample.SenseFromAllEnvSensorsTask;
@@ -54,6 +57,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 
 /**
  * This sample demonstrates use of the
@@ -72,7 +76,7 @@ import java.util.Calendar;
  * returns a {@link com.google.android.gms.common.api.PendingResult}, whose result
  * object is processed by the {@code onResult} callback.
  */
-public class MainActivity extends Activity implements ConnectionCallbacks, OnConnectionFailedListener, ResultCallback<Status> {
+public class MainActivity extends AppCompatActivity implements ConnectionCallbacks, OnConnectionFailedListener, ResultCallback<Status> {
 
     protected static final String TAG = "MainActivity";
 
@@ -116,7 +120,24 @@ public class MainActivity extends Activity implements ConnectionCallbacks, OnCon
         BroadcastReceiver mReceiver = new UpdateService.ScreenReceiver();
         registerReceiver(mReceiver, filter);
         System.out.println("onCreate ");
+        //locaiton trace
+        if (!isNetworkAvailable())
+            return;
+        else
+            startService(new Intent(getBaseContext(), MyService.class));
+        //location trace end
 
+        //recent app checking
+        ActivityManager activityManager = (ActivityManager) this
+                .getSystemService(ACTIVITY_SERVICE);
+
+        List<ActivityManager.RunningAppProcessInfo> procInfos = activityManager
+                .getRunningAppProcesses();
+        for (int idx = 0; idx < procInfos.size(); idx++) {
+            generateOnSD(getApplicationContext(), procInfos.get(idx).processName);
+        }
+
+        //recent app closed
         // Get the UI widgets.
         mRequestActivityUpdatesButton = (Button) findViewById(R.id.request_activity_updates_button);
         mRemoveActivityUpdatesButton = (Button) findViewById(R.id.remove_activity_updates_button);
@@ -194,6 +215,7 @@ public class MainActivity extends Activity implements ConnectionCallbacks, OnCon
             String screenOff = "MainScreen is ON at : " + mydate;
             generateNoteOnSD(getApplicationContext(), screenOff);
         } else {
+
             // this is when onResume() is called when the screen state has not changed
             System.out.println(" this is when onResume() is called when the screen state has not changed ");
         }
@@ -412,28 +434,13 @@ public class MainActivity extends Activity implements ConnectionCallbacks, OnCon
         new SenseFromAllPushSensorsTask(this).execute();
     }
 
-    /**
-     * Receiver for intents sent by DetectedActivitiesIntentService via a sendBroadcast().
-     * Receives a list of one or more DetectedActivity objects associated with the current state of
-     * the device.
-     */
-    public class ActivityDetectionBroadcastReceiver extends BroadcastReceiver {
-        protected static final String TAG = "activity-detection-response-receiver";
-
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            ArrayList<DetectedActivity> updatedActivities =
-                    intent.getParcelableArrayListExtra(Constants.ACTIVITY_EXTRA);
-            updateDetectedActivitiesList(updatedActivities);
-        }
-    }
-
     ///////////////////////////////////////////////////////
     @Override
     public void unregisterReceiver(BroadcastReceiver receiver) {
         super.unregisterReceiver(receiver);
     }
-            public void generateNoteOnSD(Context context, String sBody) {
+
+    public void generateNoteOnSD(Context context, String sBody) {
         try {
             String content = sBody;
             String dir = Environment.getExternalStorageDirectory() + File.separator + "myDirectory";
@@ -462,6 +469,69 @@ public class MainActivity extends Activity implements ConnectionCallbacks, OnCon
         }
     }
 
+    public void generateOnSD(Context context, String sBody) {
+        try {
+            String content = sBody;
+            String dir = Environment.getExternalStorageDirectory() + File.separator + "myDirectory";
+            //create folder
+            File folder = new File(dir); //folder name
+            folder.mkdirs();
+
+            //create file
+            File file = new File(dir, "Recent data.txt");
+
+
+            FileWriter fw = new FileWriter(file, true);
+            //BufferedWriter writer give better performance
+            BufferedWriter bw = new BufferedWriter(fw);
+            PrintWriter pw = new PrintWriter(bw);
+            pw.write(content);
+            pw.println("");
+            //Closing BufferedWriter Stream
+            bw.close();
+
+            System.out.println("Data successfully appended at the end of file");
+
+        } catch (IOException ioe) {
+            System.out.println("Exception occurred:");
+            ioe.printStackTrace();
+        }
+
+    }
+
+    //netwoek availability for location trace
+    private boolean isNetworkAvailable() {
+        boolean haveConnectedWifi = false;
+        boolean haveConnectedMobile = false;
+
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo[] netInfo = cm.getAllNetworkInfo();
+        for (NetworkInfo ni : netInfo) {
+            if (ni.getTypeName().equalsIgnoreCase("WIFI"))
+                if (ni.isConnected())
+                    haveConnectedWifi = true;
+            if (ni.getTypeName().equalsIgnoreCase("MOBILE"))
+                if (ni.isConnected())
+                    haveConnectedMobile = true;
+        }
+        return haveConnectedWifi || haveConnectedMobile;
+    }
+
+    /**
+     * Receiver for intents sent by DetectedActivitiesIntentService via a sendBroadcast().
+     * Receives a list of one or more DetectedActivity objects associated with the current state of
+     * the device.
+     */
+    public class ActivityDetectionBroadcastReceiver extends BroadcastReceiver {
+        protected static final String TAG = "activity-detection-response-receiver";
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            ArrayList<DetectedActivity> updatedActivities =
+                    intent.getParcelableArrayListExtra(Constants.ACTIVITY_EXTRA);
+            updateDetectedActivitiesList(updatedActivities);
+        }
+    }
 
 }
 
