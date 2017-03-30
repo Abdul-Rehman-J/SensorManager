@@ -285,13 +285,13 @@ ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:86:13-118
 service#com.tutorial.UpdateService
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:90:9-61
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:90:9-62
 	android:name
 		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:90:18-59
-service#com.tutorial.MyService
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:91:1-49
+service#com.MyService
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:91:9-49
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:91:10-47
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:91:18-46
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.android.gms:play-services-gcm:8.1.0] C:\Users\abdul\.android\build-cache\f2d214e5f645e5bd2720c91d0d46e09aebec76c0\output\AndroidManifest.xml:21:5-82
 	android:name

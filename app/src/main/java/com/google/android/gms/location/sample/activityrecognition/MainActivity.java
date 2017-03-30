@@ -35,6 +35,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.MyService;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
@@ -43,7 +44,6 @@ import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.ActivityRecognition;
 import com.google.android.gms.location.DetectedActivity;
-import com.tutorial.MyService;
 import com.tutorial.UpdateService;
 import com.ubhave.example.basicsensordataexample.R;
 import com.ubhave.example.basicsensordataexample.SenseFromAllEnvSensorsTask;
