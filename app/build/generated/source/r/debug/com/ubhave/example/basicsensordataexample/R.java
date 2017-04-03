@@ -3563,6 +3563,8 @@ containing a value of this type.
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f09000c;
+        /**  All customizations that are NOT specific to a particular API-level can go here. 
+         */
         public static final int AppTheme=0x7f0900a7;
         public static final int Base_AlertDialog_AppCompat=0x7f0900a8;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0900a9;

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:2:1-95:12
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:2:1-98:12
 	package
 		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:3:5-56
 		INJECTED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml
@@ -209,7 +209,7 @@ ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:64:9-53
 application
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:67:5-92:19
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:67:5-95:19
 MERGED from [com.google.android.gms:play-services:8.1.0] C:\Users\abdul\.android\build-cache\54346d97191340bccf48be58e657fd092cb16432\output\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] C:\Users\abdul\.android\build-cache\7dd8a9857386fb1bda42087d985648c960072e89\output\AndroidManifest.xml:20:5-20
 MERGED from [com.google.android.gms:play-services-appstate:8.1.0] C:\Users\abdul\.android\build-cache\22ac79ea6414d5ecb74e6c79ba910742b1076001\output\AndroidManifest.xml:19:5-20
@@ -285,13 +285,17 @@ ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:86:13-118
 service#com.tutorial.UpdateService
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:90:9-62
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:90:1-92:32
+	android:enabled
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:91:5-27
+	android:exported
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:92:5-29
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:90:18-59
-service#com.MyService
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:91:9-49
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:90:10-51
+service#com.tutorial.MyService
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:93:1-49
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:91:18-46
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:93:10-47
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.android.gms:play-services-gcm:8.1.0] C:\Users\abdul\.android\build-cache\f2d214e5f645e5bd2720c91d0d46e09aebec76c0\output\AndroidManifest.xml:21:5-82
 	android:name

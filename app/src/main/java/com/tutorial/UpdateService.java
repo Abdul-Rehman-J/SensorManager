@@ -9,6 +9,7 @@ import android.os.Environment;
 import android.os.IBinder;
 import android.provider.Settings;
 import android.support.annotation.Nullable;
+import android.widget.Toast;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -23,33 +24,6 @@ import java.util.Calendar;
  */
 
 public class UpdateService extends Service {
-    public static class ScreenReceiver extends BroadcastReceiver {
-        public static boolean screenOff;
-
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            String android_id = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
-            System.out.println("onReceive ");
-            if (intent.getAction().equals(Intent.ACTION_SCREEN_OFF)) {
-                screenOff = true;
-                System.out.println("SCREEN TURNED OFF BroadcastReceiver");
-                String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
-                String screenOff = "broadScreen is off at : " + mydate;
-                generateNoteOnSD(context, screenOff, android_id, " : screen is off");
-
-            } else if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)) {
-                screenOff = false;
-                System.out.println("SCREEN TURNED ON BroadcastReceiver");
-                String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
-                String screenONN = "broadScreen is ONN at : " + mydate;
-                generateNoteOnSD(context, screenONN, android_id, " : screen is on");
-
-            }
-            Intent i = new Intent(context, UpdateService.class);
-            i.putExtra("screen_state", screenOff);
-            context.startService(i);
-        }
-    }
         public static void generateNoteOnSD(Context context, String sBody, String id, String status) {
             try {
                 String content = sBody;
@@ -102,10 +76,9 @@ public class UpdateService extends Service {
             {
                 System.out.println("service Screen is off");
                 String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
+
                 String screenOff = "Service Screen is off at : " + mydate;
                 generateNoteOnSD(getApplicationContext(), screenOff);
-
-
             }
             else
             {
@@ -146,9 +119,40 @@ public class UpdateService extends Service {
             }
 
         }
-            @Override
+
+    @Override
         public IBinder onBind(Intent intent) {
             return null;
         }
+
+    public static class ScreenReceiver extends BroadcastReceiver {
+        public static boolean screenOff;
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String android_id = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
+            System.out.println("onReceive ");
+            if (intent.getAction().equals(Intent.ACTION_SCREEN_OFF)) {
+                screenOff = true;
+                System.out.println("SCREEN TURNED OFF BroadcastReceiver");
+                String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
+                String screenOff = "broadScreen is off at : " + mydate;
+                Toast.makeText(context, "Update Screen update is on", Toast.LENGTH_LONG).show();
+                generateNoteOnSD(context, screenOff, android_id, " : screen is off");
+
+            } else if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)) {
+                screenOff = false;
+                Toast.makeText(context, "Update Screen update is off", Toast.LENGTH_LONG).show();
+                System.out.println("SCREEN TURNED ON BroadcastReceiver");
+                String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
+                String screenONN = "broadScreen is ONN at : " + mydate;
+                generateNoteOnSD(context, screenONN, android_id, " : screen is on");
+
+            }
+            Intent i = new Intent(context, UpdateService.class);
+            i.putExtra("screen_state", screenOff);
+            context.startService(i);
+        }
+    }
 
 }

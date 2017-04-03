@@ -100,8 +100,11 @@
             android:name="com.google.android.gms.location.sample.activityrecognition.DetectedActivitiesIntentService"
             android:enabled="true"
             android:exported="false" />
-        <service android:name="com.tutorial.UpdateService" />
-        <service android:name="com.MyService" />
+        <service
+            android:name="com.tutorial.UpdateService"
+            android:enabled="true"
+            android:exported="false" />
+        <service android:name="com.tutorial.MyService" />
 
         <provider
             android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"

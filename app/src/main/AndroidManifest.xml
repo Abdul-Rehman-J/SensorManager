@@ -87,8 +87,12 @@
             android:enabled="true"
             android:exported="false" />
 
-        <service android:name="com.tutorial.UpdateService" />
-        <service android:name="com.MyService" />
+        <service
+            android:name="com.tutorial.UpdateService"
+            android:enabled="true"
+            android:exported="false" />
+        <service android:name="com.tutorial.MyService" />
+
     </application>
 
 
