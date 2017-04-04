@@ -29,6 +29,7 @@ import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.Settings;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -191,6 +192,8 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
     @Override
     protected void onResume() {
         // Register the broadcast receiver that informs this activity of the DetectedActivity
+        LocalBroadcastManager.getInstance(this).registerReceiver(mBroadcastReceiver,
+                new IntentFilter(Constants.BROADCAST_ACTION));
         // object broadcast sent by the intent service.
         if (!UpdateService.ScreenReceiver.screenOff) {
             // this is when onResume() is called due to a screen state change
@@ -210,6 +213,8 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
     @Override
     protected void onPause() {
         // Unregister the broadcast receiver that was registered during onResume().
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(mBroadcastReceiver);
+        //screen on off
         if (UpdateService.ScreenReceiver.screenOff) {
             // this is the case when onPause() is called by the system due to a screen state change
             System.out.println("SCREEN TURNED OFF");
@@ -313,12 +318,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             // button, and removing activity updates enables the Add Activity Updates button.
             setButtonsEnabledState();
 
-            Toast.makeText(
-                    this,
-                    getString(requestingUpdates ? R.string.activity_updates_added :
-                            R.string.activity_updates_removed),
-                    Toast.LENGTH_SHORT
-            ).show();
+            Toast.makeText(this, getString(requestingUpdates ? R.string.activity_updates_added : R.string.activity_updates_removed), Toast.LENGTH_SHORT).show();
         } else {
             Log.e(TAG, "Error adding or removing activity detection: " + status.getStatusMessage());
         }
