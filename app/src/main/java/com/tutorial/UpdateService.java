@@ -138,6 +138,7 @@ public class UpdateService extends Service {
                 String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
                 String screenOff = "broadScreen is off at : " + mydate;
                 Toast.makeText(context, "Update Screen update is on", Toast.LENGTH_LONG).show();
+
                 generateNoteOnSD(context, screenOff, android_id, " : screen is off");
 
             } else if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)) {

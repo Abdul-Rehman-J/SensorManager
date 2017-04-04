@@ -77,24 +77,30 @@ import java.util.Calendar;
  * object is processed by the {@code onResult} callback.
  */
 public class MainActivity extends AppCompatActivity implements ConnectionCallbacks, OnConnectionFailedListener, ResultCallback<Status> {
+
     protected static final String TAG = "MainActivity";
+
     /**
      * A receiver for DetectedActivity objects broadcast by the
      * {@code ActivityDetectionIntentService}.
      */
     protected ActivityDetectionBroadcastReceiver mBroadcastReceiver;
+
     /**
      * Provides the entry point to Google Play services.
      */
     protected GoogleApiClient mGoogleApiClient;
+
     // UI elements.
     private Button mRequestActivityUpdatesButton;
     private Button mRemoveActivityUpdatesButton;
     private ListView mDetectedActivitiesListView;
+
     /**
      * Adapter backed by a list of DetectedActivity objects.
      */
     private DetectedActivitiesAdapter mAdapter;
+
     /**
      * The DetectedActivities that we track in this sample. We use this for initializing the
      * {@code DetectedActivitiesAdapter}. We also use this for persisting state in
@@ -118,12 +124,12 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             WifiManager wifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
             wifi.setWifiEnabled(true);
         } else if (!isLocationServiceEnabled()) {
+
             Intent myIntent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
             startActivity(myIntent);
         } else {
-            startService(new Intent(getBaseContext(), UpdateService.class));
             startService(new Intent(getBaseContext(), MyService.class));
-
+            startService(new Intent(getBaseContext(), UpdateService.class));
         }
         // Get the UI widgets.
         mRequestActivityUpdatesButton = (Button) findViewById(R.id.request_activity_updates_button);
@@ -416,7 +422,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
     ///////////////////////////////////////////////////////
     @Override
     public void unregisterReceiver(BroadcastReceiver receiver) {
-        super.unregisterReceiver(receiver);
+        super.unregisterReceiver(mBroadcastReceiver);
     }
 
     public void generateNoteOnSD(Context context, String sBody) {
