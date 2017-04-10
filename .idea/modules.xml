@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/SensorManager-master/SensorManager-master.iml" filepath="$PROJECT_DIR$/SensorManager-master/SensorManager-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/SensorManagerBasicExample.iml" filepath="$PROJECT_DIR$/SensorManagerBasicExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opencsv-3.9/opencsv-3.9.iml" filepath="$PROJECT_DIR$/opencsv-3.9/opencsv-3.9.iml" />
     </modules>
   </component>
 </project>

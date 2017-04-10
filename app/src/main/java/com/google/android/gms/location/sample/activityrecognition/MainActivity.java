@@ -16,6 +16,7 @@
 
 package com.google.android.gms.location.sample.activityrecognition;
 
+import android.app.FragmentTransaction;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -45,6 +46,7 @@ import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.ActivityRecognition;
 import com.google.android.gms.location.DetectedActivity;
+import com.sample.fragments.ProcessListFragment;
 import com.tutorial.MyService;
 import com.tutorial.UpdateService;
 import com.ubhave.example.basicsensordataexample.R;
@@ -79,12 +81,7 @@ import java.util.Calendar;
  */
 public class MainActivity extends AppCompatActivity implements ConnectionCallbacks, OnConnectionFailedListener, ResultCallback<Status> {
 
-    protected static final String TAG = "MainActivity";
-
-    /**
-     * A receiver for DetectedActivity objects broadcast by the
-     * {@code ActivityDetectionIntentService}.
-     */
+    protected static final String TAG = "NewMainActivity";
     protected ActivityDetectionBroadcastReceiver mBroadcastReceiver;
 
     /**
@@ -96,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
     private Button mRequestActivityUpdatesButton;
     private Button mRemoveActivityUpdatesButton;
     private ListView mDetectedActivitiesListView;
-
+    private PendingIntent pIntent;
     /**
      * Adapter backed by a list of DetectedActivity objects.
      */
@@ -112,6 +109,14 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (savedInstanceState == null) {
+            ProcessListFragment workerfragment = new ProcessListFragment();
+            android.app.FragmentManager fm = getFragmentManager();
+            FragmentTransaction fragtrans = fm.beginTransaction();
+            fragtrans.add(workerfragment, "work");
+            fragtrans.commit();
+//            getFragmentManager().beginTransaction().add(android.R.id.content, new ProcessListFragment()).commit();
+        }
         setContentView(R.layout.main_activity);
         System.out.println("onCreate1 ");
         IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
@@ -129,8 +134,8 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             Intent myIntent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
             startActivity(myIntent);
         } else {
-            startService(new Intent(getBaseContext(), MyService.class));
             startService(new Intent(getBaseContext(), UpdateService.class));
+            startService(new Intent(getBaseContext(), MyService.class));
         }
         // Get the UI widgets.
         mRequestActivityUpdatesButton = (Button) findViewById(R.id.request_activity_updates_button);
@@ -198,8 +203,10 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
         if (!UpdateService.ScreenReceiver.screenOff) {
             // this is when onResume() is called due to a screen state change
             //  System.out.println("SCREEN TURNED ON");
+            Long tsLong = System.currentTimeMillis() / 1000;
+            String ts = tsLong.toString();
             String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
-            String screenOff = "Activity screen is ON at : " + mydate;
+            String screenOff = "App on" + "," + mydate + "," + ts;
             Toast.makeText(getApplicationContext(), "Activity screen is on", Toast.LENGTH_LONG).show();
             generateNoteOnSD(getApplicationContext(), screenOff);
         } else {
@@ -218,16 +225,20 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
         if (UpdateService.ScreenReceiver.screenOff) {
             // this is the case when onPause() is called by the system due to a screen state change
             System.out.println("SCREEN TURNED OFF");
+            Long tsLong = System.currentTimeMillis() / 1000;
+            String ts = tsLong.toString();
             String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
             Toast.makeText(getApplicationContext(), " Activity screen is oFF", Toast.LENGTH_LONG).show();
-            String screenOff = "MainScreen is pause at : " + mydate;
+            String screenOff = "App off" + "," + mydate + "," + ts;
             generateNoteOnSD(getApplicationContext(), screenOff);
 
         } else {
             // this is when onPause() is called when the screen state has not changed
             String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
             Toast.makeText(getApplicationContext(), " Activty screen is oFF", Toast.LENGTH_LONG).show();
-            String screenOff = "Activity screen is off: " + mydate;
+            Long tsLong = System.currentTimeMillis() / 1000;
+            String ts = tsLong.toString();
+            String screenOff = "APP off" + "," + mydate + "," + ts;
             generateNoteOnSD(getApplicationContext(), screenOff);
             System.out.println("this is when onPause() is called when the screen state has not changed ");
         }
@@ -434,7 +445,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             folder.mkdirs();
 
             //create file
-            File file = new File(dir, "ScreenData.txt");
+            File file = new File(dir, "App_state.txt");
 
 
             FileWriter fw = new FileWriter(file, true);

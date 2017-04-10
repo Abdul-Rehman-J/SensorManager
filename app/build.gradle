@@ -28,8 +28,14 @@ android {
         testCompile 'junit:junit:4.12'
         compile 'com.android.support:appcompat-v7:25.1.0'
         compile 'com.android.support:design:25.1.0'
+        compile 'com.jaredrummler:android-processes:1.0.9'
+
+
     }
 }
 dependencies {
+    compile 'com.squareup.picasso:picasso:2.5.2'
     compile project(':SensorManager-master')
+    compile project(':library')
+    compile project(':opencsv-3.9')
 }

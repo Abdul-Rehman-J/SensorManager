@@ -17,7 +17,6 @@
 package com.google.android.gms.location.sample.activityrecognition;
 
 import android.app.IntentService;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Environment;
 import android.provider.Settings;
@@ -102,9 +101,10 @@ import java.util.Calendar;
                     //BufferedWriter writer give better performance
                     BufferedWriter bw = new BufferedWriter(fw);
                     PrintWriter pw = new PrintWriter(bw);
-                    pw.write("Device id with " + android_id + " is " + detected_Activities + " detected at :" + mydate);
+                Long tsLong = System.currentTimeMillis() / 1000;
+                String ts = tsLong.toString();
+                pw.write(android_id + "," + detected_Activities + "," + mydate + "," + ts);
                     pw.println("");
-                    pw.println("--------------------------");
                     //Closing BufferedWriter Stream
                     bw.close();
                     System.out.println("Data successfully appended at the end of file");

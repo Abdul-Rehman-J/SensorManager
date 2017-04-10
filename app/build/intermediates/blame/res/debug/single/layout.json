@@ -96,6 +96,10 @@
         "source": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\src\\main\\res\\layout\\detected_activity.xml"
     },
     {
+        "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_process.xml",
+        "source": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\src\\main\\res\\layout\\list_item_process.xml"
+    },
+    {
         "merged": "C:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\layout\\notification_template_media.xml"
     },
