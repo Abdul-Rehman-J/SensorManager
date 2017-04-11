@@ -48,6 +48,7 @@ import com.google.android.gms.location.ActivityRecognition;
 import com.google.android.gms.location.DetectedActivity;
 import com.sample.fragments.ProcessListFragment;
 import com.tutorial.MyService;
+import com.tutorial.ScreenReceiver;
 import com.tutorial.UpdateService;
 import com.ubhave.example.basicsensordataexample.R;
 import com.ubhave.example.basicsensordataexample.SenseFromAllEnvSensorsTask;
@@ -61,6 +62,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * This sample demonstrates use of the
@@ -83,12 +86,11 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
 
     protected static final String TAG = "NewMainActivity";
     protected ActivityDetectionBroadcastReceiver mBroadcastReceiver;
-
     /**
      * Provides the entry point to Google Play services.
      */
     protected GoogleApiClient mGoogleApiClient;
-
+    private PendingIntent pendingIntent;
     // UI elements.
     private Button mRequestActivityUpdatesButton;
     private Button mRemoveActivityUpdatesButton;
@@ -121,7 +123,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
         System.out.println("onCreate1 ");
         IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
         filter.addAction(Intent.ACTION_SCREEN_OFF);
-        BroadcastReceiver mReceiver = new UpdateService.ScreenReceiver();
+        BroadcastReceiver mReceiver = new ScreenReceiver();
         registerReceiver(mReceiver, filter);
         System.out.println("onCreate ");
         startPull();
@@ -130,12 +132,26 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             WifiManager wifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
             wifi.setWifiEnabled(true);
         } else if (!isLocationServiceEnabled()) {
-
             Intent myIntent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
             startActivity(myIntent);
         } else {
-            startService(new Intent(getBaseContext(), UpdateService.class));
-            startService(new Intent(getBaseContext(), MyService.class));
+            startService(new Intent(getApplicationContext(), UpdateService.class));
+            //Declare the timer
+            Timer t = new Timer();
+//Set the schedule function and rate
+            t.scheduleAtFixedRate(new TimerTask() {
+
+                                      @Override
+                                      public void run() {
+                                          //Called each time when 1000 milliseconds (1 second) (the period parameter)
+                                          startService(new Intent(getApplicationContext(), MyService.class));
+                                      }
+
+                                  },
+//Set how long before to start calling the TimerTask (in milliseconds)
+                    0,
+//Set the amount of time between each execution (in milliseconds)
+                    1000 * 60);
         }
         // Get the UI widgets.
         mRequestActivityUpdatesButton = (Button) findViewById(R.id.request_activity_updates_button);
@@ -200,7 +216,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
         LocalBroadcastManager.getInstance(this).registerReceiver(mBroadcastReceiver,
                 new IntentFilter(Constants.BROADCAST_ACTION));
         // object broadcast sent by the intent service.
-        if (!UpdateService.ScreenReceiver.screenOff) {
+        if (!ScreenReceiver.screenOff) {
             // this is when onResume() is called due to a screen state change
             //  System.out.println("SCREEN TURNED ON");
             Long tsLong = System.currentTimeMillis() / 1000;
@@ -222,7 +238,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
         // Unregister the broadcast receiver that was registered during onResume().
         LocalBroadcastManager.getInstance(this).unregisterReceiver(mBroadcastReceiver);
         //screen on off
-        if (UpdateService.ScreenReceiver.screenOff) {
+        if (ScreenReceiver.screenOff) {
             // this is the case when onPause() is called by the system due to a screen state change
             System.out.println("SCREEN TURNED OFF");
             Long tsLong = System.currentTimeMillis() / 1000;

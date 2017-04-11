@@ -1,4 +1,4 @@
-#Tue Apr 11 00:31:50 PKT 2017
+#Wed Apr 12 02:07:42 PKT 2017
 base.0=C\:\\Users\\abdul\\Downloads\\SensorManagerBasicExample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_61ca97ebccae2d1044960c0bb0a19656faa3fca7
 renamed.1=classes2.dex
 renamed.0=classes.dex

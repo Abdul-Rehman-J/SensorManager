@@ -9,6 +9,7 @@
         android:targetSdkVersion="25" />
 
     <!-- Pull -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -66,7 +67,6 @@
         android:required="false" />
 
     <application
-        android:name="com.sample.App"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -107,12 +107,15 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
+
         <service
             android:name="com.tutorial.UpdateService"
             android:enabled="true"
             android:exported="false" />
-        <service android:name="com.tutorial.MyService" />
-
+        <service
+            android:name="com.tutorial.MyService"
+            android:enabled="true"
+            android:exported="false" />
     </application>
 
 
