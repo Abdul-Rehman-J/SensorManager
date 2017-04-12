@@ -18,7 +18,6 @@
 package com.sample.fragments;
 
 import android.app.ListFragment;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -27,7 +26,6 @@ import android.widget.ListView;
 import com.jaredrummler.android.processes.models.AndroidAppProcess;
 import com.sample.adapter.ProcessListAdapter;
 import com.sample.utils.AndroidAppProcessLoader;
-import com.tutorial.MyService;
 
 import java.util.List;
 
@@ -53,10 +51,6 @@ public class ProcessListFragment extends ListFragment implements AndroidAppProce
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
         AndroidAppProcess process = (AndroidAppProcess) getListAdapter().getItem(position);
-        ProcessListFragment obj = new ProcessListFragment();
-        Intent intent = new Intent(getActivity(), MyService.class);
-        intent.putExtra("process", process);
-        getActivity().startService(intent);
 //    ProcessInfoDialog dialog = new ProcessInfoDialog();
 //    Bundle args = new Bundle();
 //    args.putParcelable("process", process);

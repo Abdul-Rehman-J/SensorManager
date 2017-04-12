@@ -15,18 +15,9 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.IBinder;
-import android.os.SystemClock;
 import android.support.v4.app.ActivityCompat;
-import android.text.Spanned;
-import android.text.format.Formatter;
 import android.util.Log;
 import android.widget.Toast;
-
-import com.jaredrummler.android.processes.models.AndroidAppProcess;
-import com.jaredrummler.android.processes.models.Stat;
-import com.jaredrummler.android.processes.models.Statm;
-import com.jaredrummler.android.processes.models.Status;
-import com.sample.utils.HtmlBuilder;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -45,8 +36,8 @@ import java.util.Locale;
 
 public class MyService extends Service {
     private static final String TAG = "MyLocationService";
-    private static final int LOCATION_INTERVAL = 1000 * 10;
-    private static final float LOCATION_DISTANCE = 10f;
+    private static final int LOCATION_INTERVAL = 1000;
+    private static final float LOCATION_DISTANCE = 0;
     private static double lat = 0;
     private static double lon = 0;
     private static double accuracy = 0;
@@ -81,11 +72,11 @@ public class MyService extends Service {
     }
 
     /*
-    LocationListener[] mLocationListeners = new LocationListener[]{
-            new LocationListener(LocationManager.GPS_PROVIDER),
-            new LocationListener(LocationManager.NETWORK_PROVIDER)
-    };
-    */
+ LocationListener[] mLocationListeners = new LocationListener[]{
+         new LocationListener(LocationManager.GPS_PROVIDER),
+         new LocationListener(LocationManager.NETWORK_PROVIDER)
+ };
+ */
     @Override
     public IBinder onBind(Intent arg0) {
         return null;
@@ -174,9 +165,9 @@ public class MyService extends Service {
                 String featureName = returnedAddress.getFeatureName();
                 String adminArea = returnedAddress.getAdminArea();
                 String subAdminArea = returnedAddress.getSubAdminArea();
-                // strAdd = strReturnedAddress.toString();
+                strAdd = strReturnedAddress.toString();
                 Log.w("My Current loction address", "" + strReturnedAddress.toString());
-                // generateOnSD(getApplicationContext(),featureName+","+adminArea+","+subAdminArea+strReturnedAddress.toString(), accuracy);
+                generateOnSD(getApplicationContext(), featureName + "," + adminArea + "," + subAdminArea + strReturnedAddress.toString(), accuracy);
             } else {
                 Log.w("My Current loction address", "No Address returned!");
             }
@@ -186,6 +177,83 @@ public class MyService extends Service {
         }
         return strAdd;
     }
+
+//    private Spanned getProcessInfo(AndroidAppProcess process) {
+//        HtmlBuilder html = new HtmlBuilder();
+//
+//        html.p().strong("NAME: ").append(process.name).close();
+//        Log.i("asd", String.valueOf(process.name));
+//        html.p().strong("POLICY: ").append(process.foreground ? "fg" : "bg").close();
+//        html.p().strong("PID: ").append(process.pid).close();
+//
+//        try {
+//            Status status = process.status();
+//            html.p().strong("UID/GID: ").append(status.getUid()).append('/').append(status.getGid()).close();
+//        } catch (IOException e) {
+//            Log.d(TAG, String.format("Error reading /proc/%d/status.", process.pid));
+//        }
+//
+//        // should probably be run in a background thread.
+//        long startTime = 0;
+//        SimpleDateFormat sdf = null;
+//        try {
+//            Stat stat = process.stat();
+//            html.p().strong("PPID: ").append(stat.ppid()).close();
+//            long bootTime = System.currentTimeMillis() - SystemClock.elapsedRealtime();
+//            startTime = bootTime + (10 * stat.starttime());
+//            Log.i("asd", String.valueOf(startTime));
+//            sdf = new SimpleDateFormat("MMM d, yyyy KK:mm:ss a", Locale.getDefault());
+//            html.p().strong("START TIME: ").append(sdf.format(startTime)).close();
+//            html.p().strong("CPU TIME: ").append((stat.stime() + stat.utime()) / 100).close();
+//            html.p().strong("NICE: ").append(stat.nice()).close();
+//            int rtPriority = stat.rt_priority();
+//            if (rtPriority == 0) {
+//                html.p().strong("SCHEDULING PRIORITY: ").append("non-real-time").close();
+//            } else if (rtPriority >= 1 && rtPriority <= 99) {
+//                html.p().strong("SCHEDULING PRIORITY: ").append("real-time").close();
+//            }
+//            long userModeTicks = stat.utime();
+//            long kernelModeTicks = stat.stime();
+//            long percentOfTimeUserMode;
+//            long percentOfTimeKernelMode;
+//            if ((kernelModeTicks + userModeTicks) > 0) {
+//                percentOfTimeUserMode = (userModeTicks * 100) / (userModeTicks + kernelModeTicks);
+//                percentOfTimeKernelMode = (kernelModeTicks * 100) / (userModeTicks + kernelModeTicks);
+//                html.p().strong("TIME EXECUTED IN USER MODE: ").append(percentOfTimeUserMode + "%").close();
+//                html.p().strong("TIME EXECUTED IN KERNEL MODE: ").append(percentOfTimeKernelMode + "%").close();
+//            }
+//        } catch (IOException e) {
+//            Log.d(TAG, String.format("Error reading /proc/%d/stat.", process.pid));
+//        }
+//
+//        try {
+//            Statm statm = process.statm();
+//            html.p().strong("SIZE: ").append(Formatter.formatFileSize(getApplicationContext(), statm.getSize())).close();
+//            html.p().strong("RSS: ").append(Formatter.formatFileSize(getApplicationContext(), statm.getResidentSetSize())).close();
+//        } catch (IOException e) {
+//            Log.d(TAG, String.format("Error reading /proc/%d/statm.", process.pid));
+//        }
+//
+//        try {
+//            html.p().strong("OOM SCORE: ").append(process.oom_score()).close();
+//        } catch (IOException e) {
+//            Log.d(TAG, String.format("Error reading /proc/%d/oom_score.", process.pid));
+//        }
+//
+//        try {
+//            html.p().strong("OOM ADJ: ").append(process.oom_adj()).close();
+//        } catch (IOException e) {
+//            Log.d(TAG, String.format("Error reading /proc/%d/oom_adj.", process.pid));
+//        }
+//
+//        try {
+//            html.p().strong("OOM SCORE ADJ: ").append(process.oom_score_adj()).close();
+//        } catch (IOException e) {
+//            Log.d(TAG, String.format("Error reading /proc/%d/oom_score_adj.", process.pid));
+//        }
+//        generateNoteOnSD(startTime, sdf,process.name.toString());
+//        return html.toSpan();
+//    }
 
     public void generateOnSD(Context context, String sBody, double accuracy) {
         try {
@@ -213,83 +281,6 @@ public class MyService extends Service {
             System.out.println("Exception occurred:");
             ioe.printStackTrace();
         }
-    }
-
-    private Spanned getProcessInfo(AndroidAppProcess process) {
-        HtmlBuilder html = new HtmlBuilder();
-
-        html.p().strong("NAME: ").append(process.name).close();
-        Log.i("asd", String.valueOf(process.name));
-        html.p().strong("POLICY: ").append(process.foreground ? "fg" : "bg").close();
-        html.p().strong("PID: ").append(process.pid).close();
-
-        try {
-            Status status = process.status();
-            html.p().strong("UID/GID: ").append(status.getUid()).append('/').append(status.getGid()).close();
-        } catch (IOException e) {
-            Log.d(TAG, String.format("Error reading /proc/%d/status.", process.pid));
-        }
-
-        // should probably be run in a background thread.
-        long startTime = 0;
-        SimpleDateFormat sdf = null;
-        try {
-            Stat stat = process.stat();
-            html.p().strong("PPID: ").append(stat.ppid()).close();
-            long bootTime = System.currentTimeMillis() - SystemClock.elapsedRealtime();
-            startTime = bootTime + (10 * stat.starttime());
-            Log.i("asd", String.valueOf(startTime));
-            sdf = new SimpleDateFormat("MMM d, yyyy KK:mm:ss a", Locale.getDefault());
-            html.p().strong("START TIME: ").append(sdf.format(startTime)).close();
-            html.p().strong("CPU TIME: ").append((stat.stime() + stat.utime()) / 100).close();
-            html.p().strong("NICE: ").append(stat.nice()).close();
-            int rtPriority = stat.rt_priority();
-            if (rtPriority == 0) {
-                html.p().strong("SCHEDULING PRIORITY: ").append("non-real-time").close();
-            } else if (rtPriority >= 1 && rtPriority <= 99) {
-                html.p().strong("SCHEDULING PRIORITY: ").append("real-time").close();
-            }
-            long userModeTicks = stat.utime();
-            long kernelModeTicks = stat.stime();
-            long percentOfTimeUserMode;
-            long percentOfTimeKernelMode;
-            if ((kernelModeTicks + userModeTicks) > 0) {
-                percentOfTimeUserMode = (userModeTicks * 100) / (userModeTicks + kernelModeTicks);
-                percentOfTimeKernelMode = (kernelModeTicks * 100) / (userModeTicks + kernelModeTicks);
-                html.p().strong("TIME EXECUTED IN USER MODE: ").append(percentOfTimeUserMode + "%").close();
-                html.p().strong("TIME EXECUTED IN KERNEL MODE: ").append(percentOfTimeKernelMode + "%").close();
-            }
-        } catch (IOException e) {
-            Log.d(TAG, String.format("Error reading /proc/%d/stat.", process.pid));
-        }
-
-        try {
-            Statm statm = process.statm();
-            html.p().strong("SIZE: ").append(Formatter.formatFileSize(getApplicationContext(), statm.getSize())).close();
-            html.p().strong("RSS: ").append(Formatter.formatFileSize(getApplicationContext(), statm.getResidentSetSize())).close();
-        } catch (IOException e) {
-            Log.d(TAG, String.format("Error reading /proc/%d/statm.", process.pid));
-        }
-
-        try {
-            html.p().strong("OOM SCORE: ").append(process.oom_score()).close();
-        } catch (IOException e) {
-            Log.d(TAG, String.format("Error reading /proc/%d/oom_score.", process.pid));
-        }
-
-        try {
-            html.p().strong("OOM ADJ: ").append(process.oom_adj()).close();
-        } catch (IOException e) {
-            Log.d(TAG, String.format("Error reading /proc/%d/oom_adj.", process.pid));
-        }
-
-        try {
-            html.p().strong("OOM SCORE ADJ: ").append(process.oom_score_adj()).close();
-        } catch (IOException e) {
-            Log.d(TAG, String.format("Error reading /proc/%d/oom_score_adj.", process.pid));
-        }
-        generateNoteOnSD(startTime, sdf, process.name.toString());
-        return html.toSpan();
     }
 
     private class LocationListener implements android.location.LocationListener {
