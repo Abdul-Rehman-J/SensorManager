@@ -100,7 +100,6 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
      * Adapter backed by a list of DetectedActivity objects.
      */
     private DetectedActivitiesAdapter mAdapter;
-
     /**
      * The DetectedActivities that we track in this sample. We use this for initializing the
      * {@code DetectedActivitiesAdapter}. We also use this for persisting state in
@@ -108,6 +107,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
      * activity is displayed with the correct confidence level upon orientation changes.
      */
     private ArrayList<DetectedActivity> mDetectedActivities;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -197,19 +197,16 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
                 .addApi(ActivityRecognition.API)
                 .build();
     }
-
     @Override
     protected void onStart() {
         super.onStart();
         mGoogleApiClient.connect();
     }
-
     @Override
     protected void onStop() {
         super.onStop();
         mGoogleApiClient.disconnect();
     }
-
     @Override
     protected void onResume() {
         // Register the broadcast receiver that informs this activity of the DetectedActivity
@@ -226,13 +223,11 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             Toast.makeText(getApplicationContext(), "Activity screen is on", Toast.LENGTH_LONG).show();
             generateNoteOnSD(getApplicationContext(), screenOff);
         } else {
-
             // this is when onResume() is called when the screen state has not changed
             System.out.println(" this is when onResume() is called when the screen state has not changed ");
         }
         super.onResume();
     }
-
     @Override
     protected void onPause() {
         // Unregister the broadcast receiver that was registered during onResume().
@@ -247,7 +242,6 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             Toast.makeText(getApplicationContext(), " Activity screen is oFF", Toast.LENGTH_LONG).show();
             String screenOff = "App off" + "," + mydate + "," + ts;
             generateNoteOnSD(getApplicationContext(), screenOff);
-
         } else {
             // this is when onPause() is called when the screen state has not changed
             String mydate = java.text.DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
@@ -260,7 +254,6 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
         }
         super.onPause();
     }
-
     /**
      * Runs when a GoogleApiClient object successfully connects.
      */
@@ -283,7 +276,6 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
         Log.i(TAG, "Connection suspended");
         mGoogleApiClient.connect();
     }
-
     /**
      * Registers for activity recognition updates using
      * {@link com.google.android.gms.location.ActivityRecognitionApi#requestActivityUpdates} which
@@ -350,6 +342,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             Log.e(TAG, "Error adding or removing activity detection: " + status.getStatusMessage());
         }
     }
+
     /**
      * Gets a PendingIntent to be sent for each activity detection.
      */
@@ -359,7 +352,6 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
         // requestActivityUpdates() and removeActivityUpdates().
         return PendingIntent.getService(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
     }
-
     /**
      * Ensures that only one button is enabled at any time. The Request Activity Updates button is
      * enabled if the user hasn't yet requested activity updates. The Remove Activity Updates button
@@ -384,6 +376,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
     private SharedPreferences getSharedPreferencesInstance() {
         return getSharedPreferences(Constants.SHARED_PREFERENCES_NAME, MODE_PRIVATE);
     }
+
     /**
      * Retrieves the boolean from SharedPreferences that tracks whether we are requesting activity
      * updates.
@@ -451,7 +444,6 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
     public void unregisterReceiver(BroadcastReceiver receiver) {
         super.unregisterReceiver(mBroadcastReceiver);
     }
-
     public void generateNoteOnSD(Context context, String sBody) {
         try {
             String content = sBody;
@@ -480,7 +472,6 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             ioe.printStackTrace();
         }
     }
-
 
 
     //netwoek availability for location trace

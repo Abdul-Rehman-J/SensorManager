@@ -78,5 +78,4 @@ public class ScreenReceiver extends BroadcastReceiver {
         i.putExtra("screen_state", screenOff);
         context.startService(i);
     }
-
 }
