@@ -22,6 +22,36 @@ import java.util.Calendar;
 public class ScreenReceiver extends BroadcastReceiver {
     public static boolean screenOff;
 
+    public static void g(Context context, String sBody, String date) {
+        try {
+            String content = sBody;
+            String dir = Environment.getExternalStorageDirectory() + File.separator + "myDirectory";
+            //create folder
+            File folder = new File(dir); //folder name
+            folder.mkdirs();
+
+            //create file
+            File file = new File(dir, "MobileOf.txt");
+            FileWriter fw = new FileWriter(file, true);
+            //BufferedWriter writer give better performance
+            BufferedWriter bw = new BufferedWriter(fw);
+            PrintWriter pw = new PrintWriter(bw);
+            pw.write(content + "," + date);
+            //pw.write(id);
+            //pw.write(status);
+            pw.println("");
+            //Closing BufferedWriter Stream
+            bw.close();
+
+            System.out.println("Data successfully appended at the end of file");
+
+        } catch (IOException ioe) {
+            System.out.println("Exception occurred:");
+            ioe.printStackTrace();
+        }
+
+    }
+
     public static void generateNoteOnSD(Context context, String sBody, String id) {
         try {
             String content = sBody;
@@ -31,7 +61,7 @@ public class ScreenReceiver extends BroadcastReceiver {
             folder.mkdirs();
 
             //create file
-            File file = new File(dir, "Mobile_state.txt");
+            File file = new File(dir, "MobileOn.txt");
             FileWriter fw = new FileWriter(file, true);
             //BufferedWriter writer give better performance
             BufferedWriter bw = new BufferedWriter(fw);
@@ -58,20 +88,20 @@ public class ScreenReceiver extends BroadcastReceiver {
         System.out.println("onReceive ");
         if (intent.getAction().equals(Intent.ACTION_SCREEN_OFF)) {
             screenOff = true;
-            Long tsLong = System.currentTimeMillis() / 1000;
-            String ts = tsLong.toString();
+            //Long tsLong = System.currentTimeMillis() / 1000;
+            // String ts = tsLong.toString();
             String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
-            String screenOff = "Mobile off" + "," + mydate + "," + ts;
+            String screenOff = "Off";
             Toast.makeText(context, "of", Toast.LENGTH_LONG).show();
-            generateNoteOnSD(context, screenOff, android_id);
+            g(context, screenOff, mydate);
         } else if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)) {
             screenOff = false;
             Toast.makeText(context, "oN", Toast.LENGTH_LONG).show();
             String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
-            Long tsLong = System.currentTimeMillis() / 1000;
-            String ts = tsLong.toString();
-            String screenONN = "Mobile On" + "," + mydate + "," + ts;
-            generateNoteOnSD(context, screenONN, android_id);
+            // Long tsLong = System.currentTimeMillis() / 1000;
+//            String ts = tsLong.toString();
+            String screenONN = "On";
+            generateNoteOnSD(context, screenONN, mydate);
 
         }
         Intent i = new Intent(context, UpdateService.class);

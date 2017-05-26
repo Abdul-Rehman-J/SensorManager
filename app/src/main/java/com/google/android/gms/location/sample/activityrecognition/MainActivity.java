@@ -46,6 +46,7 @@ import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.ActivityRecognition;
 import com.google.android.gms.location.DetectedActivity;
+import com.google.android.gms.location.places.Places;
 import com.sample.fragments.ProcessListFragment;
 import com.tutorial.MyService;
 import com.tutorial.ScreenReceiver;
@@ -62,8 +63,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Timer;
-import java.util.TimerTask;
 
 /**
  * This sample demonstrates use of the
@@ -90,12 +89,10 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
      * Provides the entry point to Google Play services.
      */
     protected GoogleApiClient mGoogleApiClient;
-    private PendingIntent pendingIntent;
     // UI elements.
     private Button mRequestActivityUpdatesButton;
     private Button mRemoveActivityUpdatesButton;
     private ListView mDetectedActivitiesListView;
-    private PendingIntent pIntent;
     /**
      * Adapter backed by a list of DetectedActivity objects.
      */
@@ -117,6 +114,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             FragmentTransaction fragtrans = fm.beginTransaction();
             fragtrans.add(workerfragment, "work");
             fragtrans.commit();
+
 //            getFragmentManager().beginTransaction().add(android.R.id.content, new ProcessListFragment()).commit();
         }
         setContentView(R.layout.main_activity);
@@ -128,6 +126,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
         System.out.println("onCreate ");
         startPull();
         //locaiton trace
+        startService(new Intent(getApplicationContext(), MyService.class));
         if (!isNetworkAvailable()) {
             WifiManager wifi = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
             wifi.setWifiEnabled(true);
@@ -136,22 +135,6 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             startActivity(myIntent);
         } else {
             startService(new Intent(getApplicationContext(), UpdateService.class));
-            //Declare the timer
-            Timer t = new Timer();
-//Set the schedule function and rate
-            t.scheduleAtFixedRate(new TimerTask() {
-
-                                      @Override
-                                      public void run() {
-                                          //Called each time when 1000 milliseconds (1 second) (the period parameter)
-                                          startService(new Intent(getApplicationContext(), MyService.class));
-                                      }
-
-                                  },
-//Set how long before to start calling the TimerTask (in milliseconds)
-                    0,
-//Set the amount of time between each execution (in milliseconds)
-                    1000 * 60);
         }
         // Get the UI widgets.
         mRequestActivityUpdatesButton = (Button) findViewById(R.id.request_activity_updates_button);
@@ -195,6 +178,9 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
                 .addApi(ActivityRecognition.API)
+                .addApi(Places.GEO_DATA_API)
+                .addApi(Places.PLACE_DETECTION_API)
+                .enableAutoManage(this, this)
                 .build();
     }
     @Override
@@ -451,11 +437,8 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             //create folder
             File folder = new File(dir); //folder name
             folder.mkdirs();
-
             //create file
             File file = new File(dir, "App_state.txt");
-
-
             FileWriter fw = new FileWriter(file, true);
             //BufferedWriter writer give better performance
             BufferedWriter bw = new BufferedWriter(fw);
@@ -464,9 +447,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
             pw.println("");
             //Closing BufferedWriter Stream
             bw.close();
-
             System.out.println("Data successfully appended at the end of file");
-
         } catch (IOException ioe) {
             System.out.println("Exception occurred:");
             ioe.printStackTrace();
@@ -503,15 +484,12 @@ public class MainActivity extends AppCompatActivity implements ConnectionCallbac
         } catch (Exception ex) {
             //do nothing...
         }
-
         try {
             network_enabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
         } catch (Exception ex) {
             //do nothing...
         }
-
         return gps_enabled || network_enabled;
-
     }
 
     /**

@@ -2018,9 +2018,28 @@
                     "startLine": 279,
                     "startColumn": 4,
                     "startOffset": 20451,
-                    "endLine": 281,
+                    "endColumn": 121,
+                    "endOffset": 20568
+                },
+                "from": {
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\\output\\res\\values-v21\\appinvite_styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 121,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 20573,
+                    "endLine": 282,
                     "endColumn": 12,
-                    "endOffset": 20621
+                    "endOffset": 20743
                 },
                 "from": {
                     "file": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\values-v21\\values-v21.xml",
@@ -2036,12 +2055,12 @@
             },
             {
                 "to": {
-                    "startLine": 282,
+                    "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 20626,
-                    "endLine": 286,
+                    "startOffset": 20748,
+                    "endLine": 287,
                     "endColumn": 12,
-                    "endOffset": 20962
+                    "endOffset": 21084
                 },
                 "from": {
                     "file": "C:\\Users\\abdul\\.android\\build-cache\\78ae6afea08ba830f7f1e950ba9307913c1dea8f\\output\\res\\values-v21\\values-v21.xml",
@@ -2057,12 +2076,12 @@
             },
             {
                 "to": {
-                    "startLine": 287,
+                    "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 20967,
-                    "endLine": 289,
+                    "startOffset": 21089,
+                    "endLine": 290,
                     "endColumn": 12,
-                    "endOffset": 21160
+                    "endOffset": 21282
                 },
                 "from": {
                     "file": "C:\\Users\\abdul\\.android\\build-cache\\210d2bc8459792db902144dca4dffd253e752539\\output\\res\\values-v21\\values-v21.xml",

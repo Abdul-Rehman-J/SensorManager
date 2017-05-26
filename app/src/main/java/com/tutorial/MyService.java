@@ -19,6 +19,9 @@ import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -36,12 +39,18 @@ import java.util.Locale;
 
 public class MyService extends Service {
     private static final String TAG = "MyLocationService";
-    private static final int LOCATION_INTERVAL = 1000;
-    private static final float LOCATION_DISTANCE = 0;
+    private static final int LOCATION_INTERVAL = 1000 * 60;// 1000 * 60 * 10 ten minutes
+    private static final float LOCATION_DISTANCE = 0f;
+    public static double accuracy = 0;
     private static double lat = 0;
     private static double lon = 0;
-    private static double accuracy = 0;
-
+    RequestQueue requestQueue;
+    /*
+   LocationListener[] mLocationListeners = new LocationListener[]{
+           new LocationListener(LocationManager.GPS_PROVIDER),
+           new LocationListener(LocationManager.NETWORK_PROVIDER)
+   };
+   */
     LocationListener[] mLocationListeners = new LocationListener[]{
             new LocationListener(LocationManager.PASSIVE_PROVIDER)
     };
@@ -71,12 +80,6 @@ public class MyService extends Service {
         }
     }
 
-    /*
- LocationListener[] mLocationListeners = new LocationListener[]{
-         new LocationListener(LocationManager.GPS_PROVIDER),
-         new LocationListener(LocationManager.NETWORK_PROVIDER)
- };
- */
     @Override
     public IBinder onBind(Intent arg0) {
         return null;
@@ -85,8 +88,6 @@ public class MyService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.e(TAG, "onStartCommand");
-//        AndroidAppProcess process = intent.getParcelableExtra("process");
-//        getProcessInfo(process);
         super.onStartCommand(intent, flags, startId);
         return START_STICKY;
     }
@@ -94,6 +95,7 @@ public class MyService extends Service {
     @Override
     public void onCreate() {
         Log.e(TAG, "onCreate");
+        requestQueue = Volley.newRequestQueue(getApplicationContext());
         initializeLocationManager();
         try {
             mLocationManager.requestLocationUpdates(
@@ -147,38 +149,8 @@ public class MyService extends Service {
         }
     }
 
-    private String getCompleteAddressString(double LATITUDE, double LONGITUDE, double accuracy) {
-        String strAdd = "";
-        Geocoder geocoder = new Geocoder(this, Locale.getDefault());
-        try {
-            List<Address> addresses = geocoder.getFromLocation(LATITUDE, LONGITUDE, 1);
-            if (addresses != null) {
-                Address returnedAddress = addresses.get(0);
-                StringBuilder strReturnedAddress = new StringBuilder(",");
 
-                for (int i = 0; i < returnedAddress.getMaxAddressLineIndex(); i++) {
-                    strReturnedAddress.append(returnedAddress.getAddressLine(i));
-                    if (i + 1 < returnedAddress.getMaxAddressLineIndex()) {
-                        strReturnedAddress.append(",");
-                    }
-                }
-                String featureName = returnedAddress.getFeatureName();
-                String adminArea = returnedAddress.getAdminArea();
-                String subAdminArea = returnedAddress.getSubAdminArea();
-                strAdd = strReturnedAddress.toString();
-                Log.w("My Current loction address", "" + strReturnedAddress.toString());
-                generateOnSD(getApplicationContext(), featureName + "," + adminArea + "," + subAdminArea + strReturnedAddress.toString(), accuracy);
-            } else {
-                Log.w("My Current loction address", "No Address returned!");
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-            Log.w("My Current loction address", "Canont get Address!");
-        }
-        return strAdd;
-    }
-
-//    private Spanned getProcessInfo(AndroidAppProcess process) {
+    //    private Spanned getProcessInfo(AndroidAppProcess process) {
 //        HtmlBuilder html = new HtmlBuilder();
 //
 //        html.p().strong("NAME: ").append(process.name).close();
@@ -255,6 +227,78 @@ public class MyService extends Service {
 //        return html.toSpan();
 //    }
 
+    private String getCompleteAddressString(double LATITUDE, double LONGITUDE, final double accuracy) {
+        String strAdd = "";
+//        Map<String, String> jsonParams = new HashMap<String, String>();
+//        jsonParams.put("param1", "");
+//        JsonObjectRequest myRequest = new JsonObjectRequest(
+//                Request.Method.POST,
+//                " https://maps.googleapis.com/maps/api/geocode/json?latlng="+LATITUDE+","+LONGITUDE+"&key=AIzaSyByGxXvPEs_YkJmyP0g5ifLBsvvg9oWa-Y",
+//                new JSONObject(jsonParams),
+//                new Response.Listener<JSONObject>()
+//                {
+//                    @Override
+//                    public void onResponse(JSONObject response) {
+//                        //    Toast.makeText(getApplicationContext(),response.toString(),Toast.LENGTH_LONG).show();
+//                      //  Toast.makeText(getApplicationContext(),response.toString(),Toast.LENGTH_LONG).show();
+//                        String address = null;
+//                        try {
+//                            address = response.getJSONArray("results").getJSONObject(0).getString("formatted_address");
+//                            Toast.makeText(getApplicationContext(), address, Toast.LENGTH_LONG).show();
+//                            generateOnSD(getApplicationContext(),address,accuracy);
+//
+//                        } catch (JSONException e) {
+//                            e.printStackTrace();
+//                        }
+//                    }
+//                },
+//                new Response.ErrorListener() {
+//                    @Override
+//                    public void onErrorResponse(VolleyError error) {
+//                        Toast.makeText(getApplicationContext(), error.toString(), Toast.LENGTH_SHORT).show();
+//                    }
+//                }) {
+//
+//            @Override
+//            public Map<String, String> getHeaders() throws AuthFailureError {
+//                HashMap<String, String> headers = new HashMap<String, String>();
+//                headers.put("Content-Type", "application/json; charset=utf-8");
+//                headers.put("User-agent", "My useragent");
+//                return headers;
+//            }
+//        };
+//        requestQueue.add(myRequest);
+
+        Geocoder geocoder = new Geocoder(this, Locale.getDefault());
+        try {
+            List<Address> addresses = geocoder.getFromLocation(LATITUDE, LONGITUDE, 1);
+            if (addresses != null) {
+                Address returnedAddress = addresses.get(0);
+                StringBuilder strReturnedAddress = new StringBuilder(" ");
+
+                for (int i = 0; i < returnedAddress.getMaxAddressLineIndex(); i++) {
+                    strReturnedAddress.append(returnedAddress.getAddressLine(i));
+                    if (i + 1 < returnedAddress.getMaxAddressLineIndex()) {
+                        strReturnedAddress.append(",");
+                    }
+                }
+                String featureName = returnedAddress.getFeatureName();
+                String adminArea = returnedAddress.getAdminArea();
+                String subAdminArea = returnedAddress.getSubAdminArea();
+                strAdd = strReturnedAddress.toString();
+                //    Log.w("My Current loction address", "" + strReturnedAddress.toString());
+                generateOnSD(getApplicationContext(), strReturnedAddress.toString(), accuracy);
+                g(getApplicationContext(), strReturnedAddress.toString(), accuracy);
+            } else {
+                Log.w("My Current loction address", "No Address returned!");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            Log.w("My Current loction address", "Canont get Address!");
+        }
+        return strAdd;
+    }
+
     public void generateOnSD(Context context, String sBody, double accuracy) {
         try {
             String content = sBody;
@@ -283,8 +327,37 @@ public class MyService extends Service {
         }
     }
 
-    private class LocationListener implements android.location.LocationListener {
+    public void g(Context context, String sBody, double accuracy) {
+        try {
+            String content = sBody;
+            Log.d("s", sBody);
+            String dir = Environment.getExternalStorageDirectory() + File.separator + "myDirectory";
+            //create folder
+            File folder = new File(dir); //folder name
+            folder.mkdirs();
+            //create file
+            File file = new File(dir, "Location_New.txt");
+            FileWriter fw = new FileWriter(file, true);
+            //BufferedWriter writer give better performance
+            BufferedWriter bw = new BufferedWriter(fw);
+            PrintWriter pw = new PrintWriter(bw);
+            String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
+            Long tsLong = System.currentTimeMillis() / 1000;
+            String ts = tsLong.toString();
+            pw.write(content + "," + mydate + "," + accuracy + "," + ts);
+            pw.println("");
+            //Cosing BufferedWriter Stream
+            bw.close();
+            System.out.println("Data successfully appended at the end of file");
+        } catch (IOException ioe) {
+            System.out.println("Exception occurred:");
+            ioe.printStackTrace();
+        }
+    }
+
+    public class LocationListener implements android.location.LocationListener {
         Location mLastLocation;
+
         public LocationListener(String provider) {
             Log.e(TAG, "LocationListener " + provider);
             mLastLocation = new Location(provider);
@@ -292,12 +365,11 @@ public class MyService extends Service {
 
         @Override
         public void onLocationChanged(Location location) {
-
             Log.e(TAG, "onLocationChanged: " + location);
             lat = location.getLatitude();
             lon = location.getLongitude();
             accuracy = location.getAccuracy();
-            Toast.makeText(getApplicationContext(), String.valueOf(lat), Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "location detected", Toast.LENGTH_LONG).show();
             Log.w("asd", String.valueOf(lat));
             getCompleteAddressString(lat, lon, accuracy);
             mLastLocation.set(location);
@@ -305,7 +377,7 @@ public class MyService extends Service {
 
         @Override
         public void onProviderDisabled(String provider) {
-            Log.e(TAG, "onProviderDisabled: " + provider);
+            Log.e(TAG, "onStatusChanged: " + provider);
         }
 
         @Override
@@ -318,4 +390,6 @@ public class MyService extends Service {
             Log.e(TAG, "onStatusChanged: " + provider);
         }
     }
+
+
 }

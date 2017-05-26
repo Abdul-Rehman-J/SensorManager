@@ -60,11 +60,8 @@ public class UpdateService extends Service {
             //create folder
             File folder = new File(dir); //folder name
             folder.mkdirs();
-
             //create file
             File file = new File(dir, "ScreenData.txt");
-
-
             FileWriter fw = new FileWriter(file, true);
             //BufferedWriter writer give better performance
             BufferedWriter bw = new BufferedWriter(fw);
@@ -73,7 +70,6 @@ public class UpdateService extends Service {
             pw.println("");
             //Closing BufferedWriter Stream
             bw.close();
-
             System.out.println("Data successfully appended at the end of file");
 
         } catch (IOException ioe) {

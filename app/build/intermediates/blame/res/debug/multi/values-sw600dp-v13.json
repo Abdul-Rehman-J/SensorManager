@@ -315,13 +315,13 @@
                     "endOffset": 1238
                 },
                 "from": {
-                    "file": "C:\\Users\\abdul\\.android\\build-cache\\ede08d202a0d686948a5a3e59e1efeb32970a51d\\output\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\ca181fbeac3b4516191fff091123f3bd6adce628\\output\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 297,
+                        "startOffset": 282,
                         "endColumn": 72,
-                        "endOffset": 365
+                        "endOffset": 350
                     }
                 }
             },

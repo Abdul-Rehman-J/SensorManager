@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:2:1-123:12
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:2:1-128:12
 	package
 		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:3:5-56
 		INJECTED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml
@@ -17,46 +17,48 @@ ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\Andro
 		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services:8.1.0] C:\Users\abdul\.android\build-cache\54346d97191340bccf48be58e657fd092cb16432\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] C:\Users\abdul\.android\build-cache\7dd8a9857386fb1bda42087d985648c960072e89\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-appstate:8.1.0] C:\Users\abdul\.android\build-cache\22ac79ea6414d5ecb74e6c79ba910742b1076001\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-cast:8.1.0] C:\Users\abdul\.android\build-cache\e4ef74cc3a36de28b02d5219b3e0bc0bcab33e13\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\abdul\.android\build-cache\ede08d202a0d686948a5a3e59e1efeb32970a51d\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-fitness:8.1.0] C:\Users\abdul\.android\build-cache\2357c9f33f04f4be3c8a5e39d968ac6b3fa85f30\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-games:8.1.0] C:\Users\abdul\.android\build-cache\e3a36380a4e83095923f34333d1487349cbb4b5d\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-drive:8.1.0] C:\Users\abdul\.android\build-cache\a6ba250eb3d43ee9ba64b71ef3225aab0a522754\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-gcm:8.1.0] C:\Users\abdul\.android\build-cache\f2d214e5f645e5bd2720c91d0d46e09aebec76c0\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-location:8.1.0] C:\Users\abdul\.android\build-cache\2133851383afa5d5dbe4e213926aff63dc900c1b\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-analytics:8.1.0] C:\Users\abdul\.android\build-cache\284f53a6dc9db40b076c387fee4425f2c41cc8bb\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\abdul\.android\build-cache\2578599bc54744dd26fd4fb22286d03a2f297395\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-nearby:8.1.0] C:\Users\abdul\.android\build-cache\f78b2e6802126046a1c8e48d1895ab4f65c92cd9\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-panorama:8.1.0] C:\Users\abdul\.android\build-cache\eff63a4f74b8dac685c190a97d8bf47f52a8ae06\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-plus:8.1.0] C:\Users\abdul\.android\build-cache\ecad9df7818f36da5e5f2c9189cb19b046475a75\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-safetynet:8.1.0] C:\Users\abdul\.android\build-cache\0b646e892a37392e0c402258c40232977755570a\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-vision:8.1.0] C:\Users\abdul\.android\build-cache\0e61fedc3ffdf8b23006cf5b25b2083480112a0b\output\AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-wallet:8.1.0] C:\Users\abdul\.android\build-cache\ec443466e2bfca7aac83d8b6ec2940a4a5afc0c4\output\AndroidManifest.xml:19:5-42
-MERGED from [com.google.android.gms:play-services-identity:8.1.0] C:\Users\abdul\.android\build-cache\454b9da4773631958deb1f70212efd269f525700\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\abdul\.android\build-cache\9036d3f9f5965ebc2716c7ff77364d9147db2c72\output\AndroidManifest.xml:27:5-42
-MERGED from [com.google.android.gms:play-services-wearable:8.1.0] C:\Users\abdul\.android\build-cache\3866a4d1c48e659b1f8b9ecf28da24e8b31c3379\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.1.0] C:\Users\abdul\.android\build-cache\95f85ff951a037b1939643db885c9ad1c2a54bbd\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\abdul\.android\build-cache\193a7055d969ca6a804a98fa980ae0510b61dc2c\output\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:design:25.1.0] C:\Users\abdul\.android\build-cache\210d2bc8459792db902144dca4dffd253e752539\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\abdul\.android\build-cache\0ff8f9600ea9d252551ebba485f3b203077d0008\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.0] C:\Users\abdul\.android\build-cache\ffbfb6f1419d27f634caf2a184c557e1b309f0f4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.jaredrummler:android-processes:1.0.9] C:\Users\abdul\.android\build-cache\4de8cbb1388e73e52159f431be4cf90eb64c5bcf\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\abdul\.android\build-cache\e57e33c3e888e6cd5399bf454e392cb7bf32f539\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\abdul\.android\build-cache\3a5fc3ab06c4b50b77a02d57520a79e59a2e86b8\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\abdul\.android\build-cache\57f795dba7eb472c56af9051eae9bb4933d1b1bf\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\abdul\.android\build-cache\30a338477c07a21d4777818abfdcb3d2af90ca53\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\abdul\.android\build-cache\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\abdul\.android\build-cache\6f78eb0feb335b936a347ad0bfb2f427972e8b0b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\abdul\.android\build-cache\f62a78716d23e252de5f784c82c1f9d861f7795c\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\abdul\.android\build-cache\6ca661b7a6d9617fef483b725225f99129405358\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\abdul\.android\build-cache\ca181fbeac3b4516191fff091123f3bd6adce628\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\abdul\.android\build-cache\78ae6afea08ba830f7f1e950ba9307913c1dea8f\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\abdul\.android\build-cache\f0cbc9ef075b8902b60e875ca34715a11646c318\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\abdul\.android\build-cache\5ef555e5b1321205e280ccc78a9b58d8d37a08c7\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\abdul\.android\build-cache\0ff8f9600ea9d252551ebba485f3b203077d0008\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.1.0] C:\Users\abdul\.android\build-cache\ffbfb6f1419d27f634caf2a184c557e1b309f0f4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\abdul\.android\build-cache\829e6c842a74ee78bed6f878817003462cfa0228\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\abdul\.android\build-cache\3f0f952959e8b436f79bb5c7e74b7094e039693c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\abdul\.android\build-cache\9509fc5aadb2bcd90bc386a418ff6f714276b5e3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\abdul\.android\build-cache\ca8a903e71976f0496bb69817daf7c15dda20528\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\abdul\.android\build-cache\d36ea6e47f59a3447233fc4eee98db5d75b68dae\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\abdul\.android\build-cache\10f11d3114de193c09bc4381497a877520f7ac22\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\abdul\.android\build-cache\dc43d3310115fc7cc9b608629eacb354b19c3df2\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\abdul\.android\build-cache\4ad16c96cd1507a5cb77436fbead5eae4410a1c4\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\abdul\.android\build-cache\57a6ee4c30b63fa86d529ffd66f1eff08ebe74fb\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\abdul\.android\build-cache\da7073aba82eddc5596f16a9830b3f20d376e3ec\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] C:\Users\abdul\.android\build-cache\ffa31524f70a92aee29bd33590612ff0b11f1ad7\output\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\abdul\.android\build-cache\fc3cb2018843415acd079ad9959d263b58bd8ab9\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\abdul\.android\build-cache\bd5f051634e233f696b2104550aa21de7e01d2cd\output\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\abdul\.android\build-cache\5ecd498519829abf93274912189dbead224bc29a\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\abdul\.android\build-cache\699e41582310062f6cc07f2ede4c6bc311b9ffd1\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\abdul\.android\build-cache\94eaaa99b102ba71f49fcedf4a0bec3c1aafddd1\output\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:25.1.0] C:\Users\abdul\.android\build-cache\ffb65d71af388e996397d3ba8e8b97bd1cf2ffa1\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\abdul\.android\build-cache\aad158d57bb6db82662902cbbdace972bf83a21b\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\abdul\.android\build-cache\a7d4796b85a830ae5a34040dd57074cb26fba39c\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\abdul\.android\build-cache\3c4daa84e22bfaf71c27b9a8a6184f5bc00ceb10\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\abdul\.android\build-cache\7648144d391d14b5fc7482cb8b259fca93ee427a\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.1.0] C:\Users\abdul\.android\build-cache\6e7a13eaf13dd542634af8cf58c1c1ad4523c676\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.jaredrummler:android-processes:1.0.9] C:\Users\abdul\.android\build-cache\4de8cbb1388e73e52159f431be4cf90eb64c5bcf\output\AndroidManifest.xml:6:5-8:41
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:28:5-30:41
 MERGED from [SensorManagerBasicExample:library:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\library\build\intermediates\bundles\default\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\abdul\.android\build-cache\b20454b902ab688dd5e96433e42f2b2c7c66af9b\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.1.0] C:\Users\abdul\.android\build-cache\210d2bc8459792db902144dca4dffd253e752539\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -67,189 +69,192 @@ MERGED from [SensorManagerBasicExample:library:unspecified] C:\Users\abdul\Downl
 		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:8:9-35
 		INJECTED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:12:5-68
-MERGED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:24:5-67
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:12:5-98
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:12:22-65
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:12:22-95
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:13:5-68
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:13:22-65
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:13:5-81
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:14:5-81
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:43:5-81
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:13:22-78
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:14:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:14:5-81
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:15:5-81
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:32:5-81
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:14:22-78
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:15:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:15:5-79
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:16:5-79
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:33:5-79
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:15:22-76
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:16:5-79
-MERGED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-analytics:8.1.0] C:\Users\abdul\.android\build-cache\284f53a6dc9db40b076c387fee4425f2c41cc8bb\output\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-nearby:8.1.0] C:\Users\abdul\.android\build-cache\f78b2e6802126046a1c8e48d1895ab4f65c92cd9\output\AndroidManifest.xml:19:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\abdul\.android\build-cache\9036d3f9f5965ebc2716c7ff77364d9147db2c72\output\AndroidManifest.xml:20:5-78
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\abdul\.android\build-cache\3a5fc3ab06c4b50b77a02d57520a79e59a2e86b8\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\abdul\.android\build-cache\57f795dba7eb472c56af9051eae9bb4933d1b1bf\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\abdul\.android\build-cache\10f11d3114de193c09bc4381497a877520f7ac22\output\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\abdul\.android\build-cache\bd5f051634e233f696b2104550aa21de7e01d2cd\output\AndroidManifest.xml:20:5-78
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:34:5-79
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:16:22-76
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:17:5-76
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:18:5-76
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:35:5-76
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:17:22-73
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:18:22-73
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:18:5-68
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:19:5-68
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:37:5-68
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:18:22-65
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:19:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:19:5-74
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:20:5-74
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:38:5-74
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:19:22-71
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:20:22-71
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:20:5-65
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:21:5-65
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:20:22-62
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:21:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:21:5-81
-MERGED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\abdul\.android\build-cache\9036d3f9f5965ebc2716c7ff77364d9147db2c72\output\AndroidManifest.xml:22:5-80
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:22:5-81
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:50:5-81
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:21:22-78
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:22:22-78
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] C:\Users\abdul\.android\build-cache\7dd8a9857386fb1bda42087d985648c960072e89\output\AndroidManifest.xml:19:5-67
-MERGED from [com.google.android.gms:play-services-gcm:8.1.0] C:\Users\abdul\.android\build-cache\f2d214e5f645e5bd2720c91d0d46e09aebec76c0\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-analytics:8.1.0] C:\Users\abdul\.android\build-cache\284f53a6dc9db40b076c387fee4425f2c41cc8bb\output\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-wallet:8.1.0] C:\Users\abdul\.android\build-cache\ec443466e2bfca7aac83d8b6ec2940a4a5afc0c4\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\abdul\.android\build-cache\9036d3f9f5965ebc2716c7ff77364d9147db2c72\output\AndroidManifest.xml:21:5-66
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\abdul\.android\build-cache\3a5fc3ab06c4b50b77a02d57520a79e59a2e86b8\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\abdul\.android\build-cache\57f795dba7eb472c56af9051eae9bb4933d1b1bf\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\abdul\.android\build-cache\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\output\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\abdul\.android\build-cache\ca8a903e71976f0496bb69817daf7c15dda20528\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\abdul\.android\build-cache\bd5f051634e233f696b2104550aa21de7e01d2cd\output\AndroidManifest.xml:21:5-66
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:40:5-67
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:22:22-64
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:23:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:26:5-79
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:27:5-80
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:26:22-77
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:27:22-77
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:27:5-75
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:28:5-75
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:42:5-75
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:27:22-72
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:28:22-72
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:28:5-76
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:29:5-76
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:39:5-76
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:28:22-73
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:29:22-73
 uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:30:5-81
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:31:5-81
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:41:5-81
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:30:22-78
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:31:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:32:5-71
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:33:5-71
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:44:5-71
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:32:22-68
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:33:22-68
 uses-permission#android.permission.GET_TASKS
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:33:5-68
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:34:5-68
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:49:5-68
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:33:22-65
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:34:22-65
 uses-feature#android.hardware.sensor.accelerometer
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:45:5-47:35
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:46:5-48:35
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:52:5-54:35
 	android:required
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:47:9-32
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:48:9-32
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:46:9-61
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:47:9-61
 uses-feature#android.hardware.sensor.gyroscope
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:48:5-50:35
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:49:5-51:35
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:55:5-57:35
 	android:required
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:50:9-32
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:51:9-32
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:49:9-57
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:50:9-57
 uses-feature#android.hardware.camera
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:51:5-53:35
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:52:5-54:35
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:58:5-60:36
 	android:required
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:53:9-32
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:54:9-32
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:52:9-47
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:53:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:54:5-56:35
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:55:5-57:35
 	android:required
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:56:9-32
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:57:9-32
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:55:9-57
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:56:9-57
 uses-permission#android.permission.BATTERY_STATS
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:59:5-72
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:60:5-72
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:36:5-72
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:59:22-69
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:60:22-69
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:60:5-70
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:61:5-70
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:46:5-70
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:60:22-67
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:61:22-67
 uses-permission#android.permission.READ_SMS
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:61:5-67
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:62:5-67
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:47:5-67
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:61:22-64
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:62:22-64
 uses-permission#android.permission.READ_CALL_LOG
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:62:5-72
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:63:5-72
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:48:5-72
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:62:22-69
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:63:22-69
 uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:63:5-94
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:64:5-94
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:63:22-91
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:64:22-91
 uses-feature#android.hardware.sensor.light
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:65:5-67:36
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:66:5-68:36
 	android:required
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:67:9-33
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:68:9-33
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:66:9-53
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:67:9-53
 application
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:69:5-120:19
-MERGED from [com.google.android.gms:play-services:8.1.0] C:\Users\abdul\.android\build-cache\54346d97191340bccf48be58e657fd092cb16432\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] C:\Users\abdul\.android\build-cache\7dd8a9857386fb1bda42087d985648c960072e89\output\AndroidManifest.xml:20:5-20
-MERGED from [com.google.android.gms:play-services-appstate:8.1.0] C:\Users\abdul\.android\build-cache\22ac79ea6414d5ecb74e6c79ba910742b1076001\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-cast:8.1.0] C:\Users\abdul\.android\build-cache\e4ef74cc3a36de28b02d5219b3e0bc0bcab33e13\output\AndroidManifest.xml:19:5-20
-MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\abdul\.android\build-cache\ede08d202a0d686948a5a3e59e1efeb32970a51d\output\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-fitness:8.1.0] C:\Users\abdul\.android\build-cache\2357c9f33f04f4be3c8a5e39d968ac6b3fa85f30\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-games:8.1.0] C:\Users\abdul\.android\build-cache\e3a36380a4e83095923f34333d1487349cbb4b5d\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-drive:8.1.0] C:\Users\abdul\.android\build-cache\a6ba250eb3d43ee9ba64b71ef3225aab0a522754\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-gcm:8.1.0] C:\Users\abdul\.android\build-cache\f2d214e5f645e5bd2720c91d0d46e09aebec76c0\output\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-location:8.1.0] C:\Users\abdul\.android\build-cache\2133851383afa5d5dbe4e213926aff63dc900c1b\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:26:5-46:19
-MERGED from [com.google.android.gms:play-services-analytics:8.1.0] C:\Users\abdul\.android\build-cache\284f53a6dc9db40b076c387fee4425f2c41cc8bb\output\AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] C:\Users\abdul\.android\build-cache\2578599bc54744dd26fd4fb22286d03a2f297395\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-nearby:8.1.0] C:\Users\abdul\.android\build-cache\f78b2e6802126046a1c8e48d1895ab4f65c92cd9\output\AndroidManifest.xml:20:5-20
-MERGED from [com.google.android.gms:play-services-panorama:8.1.0] C:\Users\abdul\.android\build-cache\eff63a4f74b8dac685c190a97d8bf47f52a8ae06\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-plus:8.1.0] C:\Users\abdul\.android\build-cache\ecad9df7818f36da5e5f2c9189cb19b046475a75\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:8.1.0] C:\Users\abdul\.android\build-cache\0b646e892a37392e0c402258c40232977755570a\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-vision:8.1.0] C:\Users\abdul\.android\build-cache\0e61fedc3ffdf8b23006cf5b25b2083480112a0b\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-identity:8.1.0] C:\Users\abdul\.android\build-cache\454b9da4773631958deb1f70212efd269f525700\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\abdul\.android\build-cache\9036d3f9f5965ebc2716c7ff77364d9147db2c72\output\AndroidManifest.xml:28:5-20
-MERGED from [com.google.android.gms:play-services-wearable:8.1.0] C:\Users\abdul\.android\build-cache\3866a4d1c48e659b1f8b9ecf28da24e8b31c3379\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\abdul\.android\build-cache\193a7055d969ca6a804a98fa980ae0510b61dc2c\output\AndroidManifest.xml:20:5-24:19
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:70:5-126:19
 MERGED from [com.android.support:design:25.1.0] C:\Users\abdul\.android\build-cache\210d2bc8459792db902144dca4dffd253e752539\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.1.0] C:\Users\abdul\.android\build-cache\ffbfb6f1419d27f634caf2a184c557e1b309f0f4\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\abdul\.android\build-cache\e57e33c3e888e6cd5399bf454e392cb7bf32f539\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\abdul\.android\build-cache\3a5fc3ab06c4b50b77a02d57520a79e59a2e86b8\output\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\abdul\.android\build-cache\57f795dba7eb472c56af9051eae9bb4933d1b1bf\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\abdul\.android\build-cache\30a338477c07a21d4777818abfdcb3d2af90ca53\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\abdul\.android\build-cache\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\output\AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\abdul\.android\build-cache\6f78eb0feb335b936a347ad0bfb2f427972e8b0b\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\abdul\.android\build-cache\f62a78716d23e252de5f784c82c1f9d861f7795c\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\abdul\.android\build-cache\6ca661b7a6d9617fef483b725225f99129405358\output\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\abdul\.android\build-cache\ca181fbeac3b4516191fff091123f3bd6adce628\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\abdul\.android\build-cache\78ae6afea08ba830f7f1e950ba9307913c1dea8f\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\abdul\.android\build-cache\f0cbc9ef075b8902b60e875ca34715a11646c318\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\abdul\.android\build-cache\5ef555e5b1321205e280ccc78a9b58d8d37a08c7\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.1.0] C:\Users\abdul\.android\build-cache\ffbfb6f1419d27f634caf2a184c557e1b309f0f4\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\abdul\.android\build-cache\829e6c842a74ee78bed6f878817003462cfa0228\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\abdul\.android\build-cache\3f0f952959e8b436f79bb5c7e74b7094e039693c\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\abdul\.android\build-cache\9509fc5aadb2bcd90bc386a418ff6f714276b5e3\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\abdul\.android\build-cache\ca8a903e71976f0496bb69817daf7c15dda20528\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\abdul\.android\build-cache\d36ea6e47f59a3447233fc4eee98db5d75b68dae\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\abdul\.android\build-cache\10f11d3114de193c09bc4381497a877520f7ac22\output\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\abdul\.android\build-cache\dc43d3310115fc7cc9b608629eacb354b19c3df2\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\abdul\.android\build-cache\4ad16c96cd1507a5cb77436fbead5eae4410a1c4\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\abdul\.android\build-cache\57a6ee4c30b63fa86d529ffd66f1eff08ebe74fb\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\abdul\.android\build-cache\da7073aba82eddc5596f16a9830b3f20d376e3ec\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\abdul\.android\build-cache\fc3cb2018843415acd079ad9959d263b58bd8ab9\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\abdul\.android\build-cache\bd5f051634e233f696b2104550aa21de7e01d2cd\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\abdul\.android\build-cache\5ecd498519829abf93274912189dbead224bc29a\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\abdul\.android\build-cache\94eaaa99b102ba71f49fcedf4a0bec3c1aafddd1\output\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:25.1.0] C:\Users\abdul\.android\build-cache\ffb65d71af388e996397d3ba8e8b97bd1cf2ffa1\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\abdul\.android\build-cache\aad158d57bb6db82662902cbbdace972bf83a21b\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\abdul\.android\build-cache\a7d4796b85a830ae5a34040dd57074cb26fba39c\output\AndroidManifest.xml:25:5-20
@@ -257,141 +262,178 @@ MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\abdul\.android
 MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\abdul\.android\build-cache\7648144d391d14b5fc7482cb8b259fca93ee427a\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.1.0] C:\Users\abdul\.android\build-cache\6e7a13eaf13dd542634af8cf58c1c1ad4523c676\output\AndroidManifest.xml:25:5-20
 MERGED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:62:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\abdul\.android\build-cache\b20454b902ab688dd5e96433e42f2b2c7c66af9b\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:73:9-41
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:74:9-41
 	android:allowBackup
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:71:9-35
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:72:9-35
 	android:icon
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:72:9-45
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:73:9-45
 	android:theme
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:74:9-53
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:75:9-53
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:70:9-38
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:71:9-38
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:75:9-77:69
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\abdul\.android\build-cache\193a7055d969ca6a804a98fa980ae0510b61dc2c\output\AndroidManifest.xml:21:9-23:69
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:80:9-82:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\abdul\.android\build-cache\94eaaa99b102ba71f49fcedf4a0bec3c1aafddd1\output\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:77:13-66
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:82:13-66
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:76:13-58
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:81:13-58
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:83:9-85:71
+	android:value
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:85:13-68
+	android:name
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:84:13-58
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:86:9-88:71
+	android:value
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:88:13-68
+	android:name
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:87:13-62
 activity#com.google.android.gms.location.sample.activityrecognition.MainActivity
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:79:9-87:20
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:90:9-99:20
 	android:label
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:81:13-45
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:92:13-45
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:80:13-99
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:91:13-99
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:82:13-86:29
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:93:13-97:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:83:17-69
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:94:17-69
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:83:25-66
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:94:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:85:17-77
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:96:17-77
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:85:27-74
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:96:27-74
 service#com.google.android.gms.location.sample.activityrecognition.DetectedActivitiesIntentService
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:88:9-91:40
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:101:9-104:40
 	android:enabled
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:90:13-35
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:103:13-35
 	android:exported
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:91:13-37
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:104:13-37
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:89:13-118
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:102:13-118
 receiver#com.BootUpReceiver
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:102:9-110:20
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:106:9-115:20
 	android:enabled
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:104:13-35
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:108:13-35
 	android:permission
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:105:13-75
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:109:13-75
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:103:13-46
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:107:13-46
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.DEFAULT
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:106:13-109:29
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:110:13-114:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:107:17-79
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:111:17-79
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:107:25-76
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:111:25-76
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:108:17-76
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:113:17-76
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:108:27-73
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:113:27-73
 service#com.tutorial.UpdateService
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:112:9-115:40
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:117:9-120:40
 	android:enabled
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:114:13-35
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:119:13-35
 	android:exported
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:115:13-37
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:120:13-37
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:113:13-54
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:118:13-54
 service#com.tutorial.MyService
-ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:116:9-119:40
+ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:121:9-124:40
 	android:enabled
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:118:13-35
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:123:13-35
 	android:exported
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:119:13-37
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:124:13-37
 	android:name
-		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:117:13-50
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:8.1.0] C:\Users\abdul\.android\build-cache\f2d214e5f645e5bd2720c91d0d46e09aebec76c0\output\AndroidManifest.xml:21:5-82
-	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:8.1.0] C:\Users\abdul\.android\build-cache\f2d214e5f645e5bd2720c91d0d46e09aebec76c0\output\AndroidManifest.xml:21:22-79
-provider#com.google.android.gms.measurement.AppMeasurementContentProvider
-ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:28:7-31:37
-	android:authorities
-		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:29:11-76
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:31:11-35
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:30:11-90
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:33:7-39:18
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:35:11-33
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:34:11-83
-intent-filter#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:36:9-38:25
-action#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:37:11-77
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:37:19-75
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:41:7-44:37
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:43:11-33
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:44:11-35
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] C:\Users\abdul\.android\build-cache\233487426eb55642baa1d8bd0a3e6e37fc2fafd5\output\AndroidManifest.xml:42:11-82
+		ADDED from C:\Users\abdul\Downloads\SensorManagerBasicExample\app\src\main\AndroidManifest.xml:122:13-50
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\AndroidManifest.xml:26:9-29:64
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\abdul\.android\build-cache\3a5fc3ab06c4b50b77a02d57520a79e59a2e86b8\output\AndroidManifest.xml:26:9-29:64
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\AndroidManifest.xml:28:13-122
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\abdul\.android\build-cache\3a5fc3ab06c4b50b77a02d57520a79e59a2e86b8\output\AndroidManifest.xml:28:13-122
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\AndroidManifest.xml:29:13-61
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\abdul\.android\build-cache\3a5fc3ab06c4b50b77a02d57520a79e59a2e86b8\output\AndroidManifest.xml:29:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\AndroidManifest.xml:27:13-65
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\abdul\.android\build-cache\3a5fc3ab06c4b50b77a02d57520a79e59a2e86b8\output\AndroidManifest.xml:27:13-65
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\AndroidManifest.xml:30:9-31:52
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\abdul\.android\build-cache\3a5fc3ab06c4b50b77a02d57520a79e59a2e86b8\output\AndroidManifest.xml:30:9-31:52
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\AndroidManifest.xml:31:13-50
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\abdul\.android\build-cache\3a5fc3ab06c4b50b77a02d57520a79e59a2e86b8\output\AndroidManifest.xml:31:13-50
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\abdul\.android\build-cache\84a27d87df82f0185bec101bf2d84a0f686d38d8\output\AndroidManifest.xml:30:19-91
-uses-permission#android.permission.GET_ACCOUNTS
-ADDED from [com.google.android.gms:play-services-wallet:8.1.0] C:\Users\abdul\.android\build-cache\ec443466e2bfca7aac83d8b6ec2940a4a5afc0c4\output\AndroidManifest.xml:21:5-70
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\abdul\.android\build-cache\3a5fc3ab06c4b50b77a02d57520a79e59a2e86b8\output\AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\abdul\.android\build-cache\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\output\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\abdul\.android\build-cache\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\output\AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\abdul\.android\build-cache\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\output\AndroidManifest.xml:24:17-63
 	android:name
-		ADDED from [com.google.android.gms:play-services-wallet:8.1.0] C:\Users\abdul\.android\build-cache\ec443466e2bfca7aac83d8b6ec2940a4a5afc0c4\output\AndroidManifest.xml:21:22-68
-uses-permission#android.permission.USE_CREDENTIALS
-ADDED from [com.google.android.gms:play-services-wallet:8.1.0] C:\Users\abdul\.android\build-cache\ec443466e2bfca7aac83d8b6ec2940a4a5afc0c4\output\AndroidManifest.xml:22:5-73
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\abdul\.android\build-cache\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\output\AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\abdul\.android\build-cache\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\output\AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\abdul\.android\build-cache\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\output\AndroidManifest.xml:26:17-89
 	android:name
-		ADDED from [com.google.android.gms:play-services-wallet:8.1.0] C:\Users\abdul\.android\build-cache\ec443466e2bfca7aac83d8b6ec2940a4a5afc0c4\output\AndroidManifest.xml:22:22-71
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\abdul\.android\build-cache\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\output\AndroidManifest.xml:26:25-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\abdul\.android\build-cache\f62a78716d23e252de5f784c82c1f9d861f7795c\output\AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\abdul\.android\build-cache\f62a78716d23e252de5f784c82c1f9d861f7795c\output\AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\abdul\.android\build-cache\f62a78716d23e252de5f784c82c1f9d861f7795c\output\AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\abdul\.android\build-cache\f62a78716d23e252de5f784c82c1f9d861f7795c\output\AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\abdul\.android\build-cache\f62a78716d23e252de5f784c82c1f9d861f7795c\output\AndroidManifest.xml:21:19-72
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\abdul\.android\build-cache\f62a78716d23e252de5f784c82c1f9d861f7795c\output\AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\abdul\.android\build-cache\f62a78716d23e252de5f784c82c1f9d861f7795c\output\AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\abdul\.android\build-cache\f62a78716d23e252de5f784c82c1f9d861f7795c\output\AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\abdul\.android\build-cache\f62a78716d23e252de5f784c82c1f9d861f7795c\output\AndroidManifest.xml:29:13-62
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\abdul\.android\build-cache\ca8a903e71976f0496bb69817daf7c15dda20528\output\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\abdul\.android\build-cache\ca8a903e71976f0496bb69817daf7c15dda20528\output\AndroidManifest.xml:21:22-79
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\abdul\.android\build-cache\13071a71a6a5e401458d277eb324f6971944c670\output\AndroidManifest.xml:42:11-82
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\abdul\.android\build-cache\9036d3f9f5965ebc2716c7ff77364d9147db2c72\output\AndroidManifest.xml:23:5-25:33
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\abdul\.android\build-cache\bd5f051634e233f696b2104550aa21de7e01d2cd\output\AndroidManifest.xml:22:5-24:33
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\abdul\.android\build-cache\9036d3f9f5965ebc2716c7ff77364d9147db2c72\output\AndroidManifest.xml:24:8-40
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\abdul\.android\build-cache\bd5f051634e233f696b2104550aa21de7e01d2cd\output\AndroidManifest.xml:23:8-40
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\abdul\.android\build-cache\9036d3f9f5965ebc2716c7ff77364d9147db2c72\output\AndroidManifest.xml:25:8-31
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\abdul\.android\build-cache\bd5f051634e233f696b2104550aa21de7e01d2cd\output\AndroidManifest.xml:24:8-31
 uses-permission#android.permission.UPDATE_DEVICE_STATS
 ADDED from [SensorManagerBasicExample:SensorManager-master:unspecified] C:\Users\abdul\Downloads\SensorManagerBasicExample\SensorManager-master\build\intermediates\bundles\default\AndroidManifest.xml:45:5-78
 	android:name

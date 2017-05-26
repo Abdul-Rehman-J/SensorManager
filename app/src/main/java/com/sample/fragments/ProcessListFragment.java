@@ -24,7 +24,7 @@ import android.view.View;
 import android.widget.ListView;
 
 import com.jaredrummler.android.processes.models.AndroidAppProcess;
-import com.sample.adapter.ProcessListAdapter;
+import com.sample.dialogs.ProcessInfoDialog;
 import com.sample.utils.AndroidAppProcessLoader;
 
 import java.util.List;
@@ -45,18 +45,18 @@ public class ProcessListFragment extends ListFragment implements AndroidAppProce
 
     @Override
     public void onComplete(List<AndroidAppProcess> processes) {
-        setListAdapter(new ProcessListAdapter(getActivity(), processes));
+//        setListAdapter(new ProcessListAdapter(getActivity(), processes));
     }
 
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
         AndroidAppProcess process = (AndroidAppProcess) getListAdapter().getItem(position);
-//    ProcessInfoDialog dialog = new ProcessInfoDialog();
-//    Bundle args = new Bundle();
-//    args.putParcelable("process", process);
-//    dialog.setArguments(args);
-//    dialog.show(getActivity().getFragmentManager(), "ProcessInfoDialog");
-//
+        ProcessInfoDialog dialog = new ProcessInfoDialog();
+        Bundle args = new Bundle();
+        args.putParcelable("process", process);
+        dialog.setArguments(args);
+        dialog.show(getActivity().getFragmentManager(), "ProcessInfoDialog");
+
     }
 
 }

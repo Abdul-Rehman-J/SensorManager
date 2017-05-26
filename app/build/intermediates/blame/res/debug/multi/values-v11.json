@@ -514,6 +514,25 @@
                         "endOffset": 13900
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 14042,
+                    "endColumn": 117,
+                    "endOffset": 14155
+                },
+                "from": {
+                    "file": "C:\\Users\\abdul\\.android\\build-cache\\d49f2cfe8c63a253bc50e5d4f0194426b059ef58\\output\\res\\values-v11\\appinvite_styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 117,
+                        "endOffset": 214
+                    }
+                }
             }
         ]
     }

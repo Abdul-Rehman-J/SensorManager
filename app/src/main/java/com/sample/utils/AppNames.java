@@ -26,8 +26,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.text.DateFormat;
-import java.util.Calendar;
 import java.util.Hashtable;
 
 
@@ -41,7 +39,7 @@ public class AppNames {
         String label = packageInfo.applicationInfo.loadLabel(pm).toString();
         APP_NAME_CACHE.put(packageInfo.packageName, label);
         //Log.d("label", label);
-        String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
+        // String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
         //generateNoteOnSD(label,mydate.toString());
         return label;
     }
