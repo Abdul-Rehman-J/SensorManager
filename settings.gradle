@@ -1,1 +1,1 @@
-include ':app', ':SensorManager-master', ':library', ':opencsv-3.9'
+include ':app', ':SensorManager-master', ':library', ':opencsv-3.9', ':SensorDataManager-master'

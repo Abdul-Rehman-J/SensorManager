@@ -17,7 +17,6 @@ import android.os.Environment;
 import android.os.IBinder;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
@@ -87,14 +86,14 @@ public class MyService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.e(TAG, "onStartCommand");
+        //Log.e(TAG, "onStartCommand");
         super.onStartCommand(intent, flags, startId);
         return START_STICKY;
     }
 
     @Override
     public void onCreate() {
-        Log.e(TAG, "onCreate");
+        //Log.e(TAG, "onCreate");
         requestQueue = Volley.newRequestQueue(getApplicationContext());
         initializeLocationManager();
         try {
@@ -110,20 +109,7 @@ public class MyService extends Service {
             Log.d(TAG, "network provider does not exist, " + ex.getMessage());
         }
 
-        /*try {
-            mLocationManager.requestLocationUpdates(
-                    LocationManager.GPS_PROVIDER,
-                    LOCATION_INTERVAL,
-                    LOCATION_DISTANCE,
-                    mLocationListeners[1]
-            );
-        } catch (java.lang.SecurityException ex) {
-            Log.i(TAG, "fail to request location update, ignore", ex);
-        } catch (IllegalArgumentException ex) {
-            Log.d(TAG, "gps provider does not exist " + ex.getMessage());
-        }*/
     }
-
     @Override
     public void onDestroy() {
         Log.e(TAG, "onDestroy");
@@ -141,7 +127,6 @@ public class MyService extends Service {
             }
         }
     }
-
     private void initializeLocationManager() {
         Log.w(TAG, "initializeLocationManager - LOCATION_INTERVAL: " + LOCATION_INTERVAL + " LOCATION_DISTANCE: " + LOCATION_DISTANCE);
         if (mLocationManager == null) {
@@ -229,46 +214,6 @@ public class MyService extends Service {
 
     private String getCompleteAddressString(double LATITUDE, double LONGITUDE, final double accuracy) {
         String strAdd = "";
-//        Map<String, String> jsonParams = new HashMap<String, String>();
-//        jsonParams.put("param1", "");
-//        JsonObjectRequest myRequest = new JsonObjectRequest(
-//                Request.Method.POST,
-//                " https://maps.googleapis.com/maps/api/geocode/json?latlng="+LATITUDE+","+LONGITUDE+"&key=AIzaSyByGxXvPEs_YkJmyP0g5ifLBsvvg9oWa-Y",
-//                new JSONObject(jsonParams),
-//                new Response.Listener<JSONObject>()
-//                {
-//                    @Override
-//                    public void onResponse(JSONObject response) {
-//                        //    Toast.makeText(getApplicationContext(),response.toString(),Toast.LENGTH_LONG).show();
-//                      //  Toast.makeText(getApplicationContext(),response.toString(),Toast.LENGTH_LONG).show();
-//                        String address = null;
-//                        try {
-//                            address = response.getJSONArray("results").getJSONObject(0).getString("formatted_address");
-//                            Toast.makeText(getApplicationContext(), address, Toast.LENGTH_LONG).show();
-//                            generateOnSD(getApplicationContext(),address,accuracy);
-//
-//                        } catch (JSONException e) {
-//                            e.printStackTrace();
-//                        }
-//                    }
-//                },
-//                new Response.ErrorListener() {
-//                    @Override
-//                    public void onErrorResponse(VolleyError error) {
-//                        Toast.makeText(getApplicationContext(), error.toString(), Toast.LENGTH_SHORT).show();
-//                    }
-//                }) {
-//
-//            @Override
-//            public Map<String, String> getHeaders() throws AuthFailureError {
-//                HashMap<String, String> headers = new HashMap<String, String>();
-//                headers.put("Content-Type", "application/json; charset=utf-8");
-//                headers.put("User-agent", "My useragent");
-//                return headers;
-//            }
-//        };
-//        requestQueue.add(myRequest);
-
         Geocoder geocoder = new Geocoder(this, Locale.getDefault());
         try {
             List<Address> addresses = geocoder.getFromLocation(LATITUDE, LONGITUDE, 1);
@@ -282,10 +227,7 @@ public class MyService extends Service {
                         strReturnedAddress.append(",");
                     }
                 }
-                String featureName = returnedAddress.getFeatureName();
-                String adminArea = returnedAddress.getAdminArea();
-                String subAdminArea = returnedAddress.getSubAdminArea();
-                strAdd = strReturnedAddress.toString();
+
                 //    Log.w("My Current loction address", "" + strReturnedAddress.toString());
                 generateOnSD(getApplicationContext(), strReturnedAddress.toString(), accuracy);
                 g(getApplicationContext(), strReturnedAddress.toString(), accuracy);
@@ -369,7 +311,7 @@ public class MyService extends Service {
             lat = location.getLatitude();
             lon = location.getLongitude();
             accuracy = location.getAccuracy();
-            Toast.makeText(getApplicationContext(), "location detected", Toast.LENGTH_LONG).show();
+            //   Toast.makeText(getApplicationContext(), "location detected", Toast.LENGTH_LONG).show();
             Log.w("asd", String.valueOf(lat));
             getCompleteAddressString(lat, lon, accuracy);
             mLastLocation.set(location);

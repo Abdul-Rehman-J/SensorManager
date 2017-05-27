@@ -30,6 +30,9 @@ import com.ubhave.sensormanager.classifier.AccelerometerDataClassifier;
 import com.ubhave.sensormanager.classifier.BluetoothDataClassifier;
 import com.ubhave.sensormanager.classifier.LocationDataClassifier;
 import com.ubhave.sensormanager.classifier.MicrophoneDataClassifier;
+import com.ubhave.sensormanager.classifier.PhoneStateDataClassifier;
+import com.ubhave.sensormanager.classifier.SMSDataClassifier;
+import com.ubhave.sensormanager.classifier.ScreenDataClassifier;
 import com.ubhave.sensormanager.classifier.SensorDataClassifier;
 import com.ubhave.sensormanager.classifier.WifiDataClassifier;
 import com.ubhave.sensormanager.config.GlobalConfig;
@@ -240,8 +243,15 @@ public class SensorUtils
 			return new MicrophoneDataClassifier();
 		case SensorUtils.SENSOR_TYPE_WIFI:
 			return new WifiDataClassifier();
-		default:
-			throw new ESException(ESException.UNKNOWN_SENSOR_TYPE, "Sensor data classifier not support for the sensor type " + sensorType);
+            case SensorUtils.SENSOR_TYPE_PHONE_STATE:
+                return new PhoneStateDataClassifier();
+            case SensorUtils.SENSOR_TYPE_SCREEN:
+                return new ScreenDataClassifier();
+            case SensorUtils.SENSOR_TYPE_SMS:
+                return new SMSDataClassifier();
+
+            default:
+                throw new ESException(ESException.UNKNOWN_SENSOR_TYPE, "Sensor data classifier not support for the sensor type " + sensorType);
 		}
 	}
 }

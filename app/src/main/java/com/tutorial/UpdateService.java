@@ -36,14 +36,14 @@ public class UpdateService extends Service {
     public int onStartCommand(Intent intent, int startId) {
         boolean screenOn = intent.getBooleanExtra("screen_state", false);
         if (!screenOn) {
-            System.out.println("service Screen is off");
+            //  System.out.println("service Screen is off");
             String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
             Long tsLong = System.currentTimeMillis() / 1000;
             String ts = tsLong.toString();
             String screenOff = "Off" + mydate + "," + ts;
             generateNoteOnSD(getApplicationContext(), screenOff);
         } else {
-            System.out.println("service Screen is on");
+            // System.out.println("service Screen is on");
             String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
             Long tsLong = System.currentTimeMillis() / 1000;
             String ts = tsLong.toString();

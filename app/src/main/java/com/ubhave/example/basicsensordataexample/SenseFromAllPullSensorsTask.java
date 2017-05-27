@@ -11,6 +11,7 @@ import com.ubhave.sensormanager.data.SensorData;
 import com.ubhave.sensormanager.sensors.SensorEnum;
 import com.ubhave.sensormanager.sensors.SensorUtils;
 
+
 public class SenseFromAllPullSensorsTask extends AsyncTask<Void, Void, Void> {
     private final static String LOG_TAG = "SenseFromAllPullSensorsTask";
     private ESSensorManager sensorManager;

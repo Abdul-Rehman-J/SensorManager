@@ -815,7 +815,7 @@
     <string name="accept">Accept</string>
     <string name="activity_updates_added">Activity updates added</string>
     <string name="activity_updates_removed">Activity updates removed</string>
-    <string name="app_name">Parent-Children</string>
+    <string name="app_name">Project</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
@@ -857,6 +857,7 @@
     <string name="create_calendar_title">Create calendar event</string>
     <string name="decline">Decline</string>
     <string name="detected_activities_title">Detected Activities</string>
+    <string name="flush">Flush</string>
     <string name="hello_world">This activity is empty.</string>
     <string name="in_vehicle">In a vehicle</string>
     <string name="mr_media_route_button_content_description">Cast</string>
@@ -883,6 +884,7 @@
     <string name="remove_activity_updates">Remove updates</string>
     <string name="request_activity_updates">Request updates</string>
     <string name="running">Running</string>
+    <string name="search">Search</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="still">Still</string>

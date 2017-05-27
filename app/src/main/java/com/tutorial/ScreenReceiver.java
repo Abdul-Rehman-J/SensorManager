@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Environment;
 import android.provider.Settings;
-import android.widget.Toast;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -92,11 +91,11 @@ public class ScreenReceiver extends BroadcastReceiver {
             // String ts = tsLong.toString();
             String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
             String screenOff = "Off";
-            Toast.makeText(context, "of", Toast.LENGTH_LONG).show();
+            //  Toast.makeText(context, "of", Toast.LENGTH_LONG).show();
             g(context, screenOff, mydate);
         } else if (intent.getAction().equals(Intent.ACTION_SCREEN_ON)) {
             screenOff = false;
-            Toast.makeText(context, "oN", Toast.LENGTH_LONG).show();
+            //   Toast.makeText(context, "oN", Toast.LENGTH_LONG).show();
             String mydate = DateFormat.getDateTimeInstance().format(Calendar.getInstance().getTime());
             // Long tsLong = System.currentTimeMillis() / 1000;
 //            String ts = tsLong.toString();

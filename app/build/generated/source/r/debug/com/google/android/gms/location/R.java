@@ -220,10 +220,10 @@ public final class R {
         public static final int google_play_services_version = 0x7f0b0006;
     }
     public static final class layout {
-        public static final int place_autocomplete_fragment = 0x7f03003f;
-        public static final int place_autocomplete_item_powered_by_google = 0x7f030040;
-        public static final int place_autocomplete_item_prediction = 0x7f030041;
-        public static final int place_autocomplete_progress = 0x7f030042;
+        public static final int place_autocomplete_fragment = 0x7f03003e;
+        public static final int place_autocomplete_item_powered_by_google = 0x7f03003f;
+        public static final int place_autocomplete_item_prediction = 0x7f030040;
+        public static final int place_autocomplete_progress = 0x7f030041;
     }
     public static final class raw {
         public static final int gtm_analytics = 0x7f060000;
@@ -269,8 +269,8 @@ public final class R {
         public static final int decline = 0x7f07005a;
         public static final int place_autocomplete_clear_button = 0x7f07003b;
         public static final int place_autocomplete_search_hint = 0x7f07003c;
-        public static final int store_picture_message = 0x7f07006a;
-        public static final int store_picture_title = 0x7f07006b;
+        public static final int store_picture_message = 0x7f07006c;
+        public static final int store_picture_title = 0x7f07006d;
         public static final int wallet_buy_button_place_holder = 0x7f07003f;
     }
     public static final class style {
